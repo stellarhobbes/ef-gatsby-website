@@ -1,5 +1,5 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
 // markup
 const NotFoundPage = () => {
@@ -11,7 +11,7 @@ const NotFoundPage = () => {
         <Link to="/">Go home</Link>.
       </p>
     </main>
-  )
-}
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;
