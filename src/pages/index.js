@@ -1,12 +1,10 @@
 import * as React from "react";
-import Banner from "../components/banner";
-import Navbar from "../components/navbar";
+import NavbarHeader from "../components/navbar-header";
 
 const IndexPage = () => {
   return (
     <main class>
-      <Banner />
-      <Navbar />
+      <NavbarHeader />
     </main>
   );
 };

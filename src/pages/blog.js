@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
-import Banner from "../components/banner";
+import Navbar from "../components/navbar";
 
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
@@ -19,7 +19,7 @@ const BlogPage = () => {
 
   return (
     <body>
-      <Banner />
+      <Navbar />
       <h1 className="text-indigo-600">Blog</h1>
       <ol>
         {data.allContentfulBlogPost.edges.map((edge) => {
