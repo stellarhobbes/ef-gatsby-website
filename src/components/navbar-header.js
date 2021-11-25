@@ -58,7 +58,7 @@ const NavbarHeader = () => {
                 <span className="inline-flex rounded-md shadow">
                   <Link
                     to="#"
-                    className="inline-flex items-center px-8 py-3 text-sm uppercase font-medium rounded-md text-white bg-ef-blue hover:bg-blue-900"
+                    className="inline-flex items-center px-8 py-3 text-sm uppercase font-medium rounded-md text-white bg-ef-blue hover:bg-ef-red"
                   >
                     Faites le test !
                   </Link>
@@ -148,7 +148,7 @@ const NavbarHeader = () => {
             <div className="rounded-md">
               <Link
                 to="#"
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-sm uppercase font-medium rounded-md text-white bg-ef-blue hover:bg-blue-900 md:py-4 md:px-10"
+                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-sm uppercase font-medium rounded-md text-white bg-ef-blue hover:bg-ef-red md:py-4 md:px-10"
               >
                 Contacter un coach
               </Link>
