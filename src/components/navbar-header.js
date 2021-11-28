@@ -126,7 +126,7 @@ const NavbarHeader = () => {
         <div className="text-center">
         <div className="flex justify-center || sm:visible md:hidden">
           <img
-            className="flex align-item-center w-3/4"
+            className="flex align-item-center w-4/4 mb-2 || sm:w-3/4"
             src={BackgroundMountains}
             alt="illustration montagnes entrepreuneuriat français"
           />

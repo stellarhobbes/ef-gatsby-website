@@ -36,7 +36,7 @@ const Comparaison = () => {
       <div className="relative || md:-mt-28 sm:mt-2">
         <div className="flex justify-center || sm:mb-2 md:-mb-60">
           <img
-            className="flex align-item-center w-3/4"
+            className="flex align-item-center w-3/4 hidden || sm:block"
             src={BackgroundMountains}
             alt="illustration montagnes entrepreuneuriat français"
           />
@@ -55,7 +55,7 @@ const Comparaison = () => {
                     {negative.description}
                   </p>
                 </div>
-                <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 || sm:p-10 sm:pt-6">
+                <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-white space-y-6 || sm:p-10 sm:pt-6">
                   <ul className="space-y-4">
                     {negative.features.map((feature) => (
                       <li key={feature} className="flex items-start">
@@ -85,7 +85,7 @@ const Comparaison = () => {
                     {positive.description}
                   </p>
                 </div>
-                <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 || sm:p-10 sm:pt-6">
+                <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-white space-y-6 || sm:p-10 sm:pt-6">
                   <ul className="space-y-4">
                     {positive.features.map((feature) => (
                       <li key={feature} className="flex items-start">
