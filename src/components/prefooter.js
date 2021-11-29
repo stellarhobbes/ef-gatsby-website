@@ -3,8 +3,10 @@ import { Link } from "gatsby";
 
 import BlueLine from "../images/ef-line-blue.png";
 import RedLine from "../images/ef-line-red.png";
+import LogoQualiopi from "../images/logo-qualiopi.png";
+import LogoDatadock from "../images/logo-datadock.webp";
 
-const CallToActionSimple = (props) => {
+const PreFooter = (props) => {
   return (
     <div className="bg-white">
       <div
@@ -34,6 +36,26 @@ const CallToActionSimple = (props) => {
             </Link>
           </div>
         </div>
+        <div id="double-logo" className="mt-8 flex justify-center">
+          <div className="inline-flex rounded-md">
+            <Link to="/">
+              <img
+                className="h-16 w-auto"
+                src={LogoQualiopi}
+                alt="logo entrepreneuriat français"
+              />
+            </Link>
+          </div>
+          <div className="ml-3 inline-flex">
+            <Link to="/">
+              <img
+                className="h-16 w-auto"
+                src={LogoDatadock}
+                alt="logo entrepreneuriat français"
+              />
+            </Link>
+          </div>
+        </div>
       </div>
       <div
         id="redline"
@@ -49,4 +71,4 @@ const CallToActionSimple = (props) => {
   );
 };
 
-export default CallToActionSimple;
+export default PreFooter;
