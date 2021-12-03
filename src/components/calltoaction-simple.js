@@ -4,6 +4,9 @@ import { Link } from "gatsby";
 import BlueLine from "../images/ef-line-blue.png";
 import RedLine from "../images/ef-line-red.png";
 
+import Fade from "react-reveal/Fade";
+import HeadShake from 'react-reveal/HeadShake';
+
 const CallToActionSimple = (props) => {
   return (
     <div className="bg-white">
@@ -21,17 +24,21 @@ const CallToActionSimple = (props) => {
         <p className="mt-3 mb-8 max-w-md mx-auto text-base text-gray-500 || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
           {props.subtitle}
         </p>
-        <h2 className="text-5xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-5xl">
+        <Fade top>
+        <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-5xl">
           <span className="block">{props.title}</span>
         </h2>
+        </Fade>
         <div className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md shadow">
+            <HeadShake delay={1000}>
             <Link
               to="#"
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-ef-blue hover:bg-ef-red"
             >
               {props.buttonTitle}
             </Link>
+            </HeadShake>
           </div>
         </div>
       </div>

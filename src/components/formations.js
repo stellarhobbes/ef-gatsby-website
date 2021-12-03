@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 
+import Fade from "react-reveal/Fade";
+
 const formations = [
   {
     title: "Créer son agence de communication",
@@ -57,12 +59,14 @@ const Formation = () => {
     <div className="bg-white">
       <div className="mx-auto py-12 px-4 max-w-7xl || sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12">
+          <Fade top>
           <h2 className="text-4xl w-3/4 m-auto font-extrabold text-center uppercase font-title text-ef-blue tracking-tight text-gray-900 mb-20 || sm:text-4xl">
             <span className="block">
               Retrouvez l’excellence à la française dans la formation qui va
               vous <span className="underline">propulser</span>.
             </span>
           </h2>
+          </Fade>
           <ul className="space-y-12 || sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {formations.map((formation) => (
               <li key={formation.name}>

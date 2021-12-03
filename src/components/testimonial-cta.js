@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
 
+import Fade from "react-reveal/Fade";
+import HeadShake from 'react-reveal/HeadShake';
+
 const people = [
   {
     name: "Françoise",
@@ -41,11 +44,13 @@ const TestimonialCta = () => {
         <p className="mt-3 mb-8 max-w-md mx-auto text-base text-gray-500 || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
           ils ont suivi notre parcours
         </p>
+        <Fade top>
         <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">
           <span className="block">
             Nous avons eu la chance de les former et ils ont réussi
           </span>
         </h2>
+        </Fade>
       </div>
 
       <div className="max-w-7xl mx-auto md:grid md:grid-cols-3 md:px-6 lg:px-8">
@@ -86,12 +91,14 @@ const TestimonialCta = () => {
       </div>
       <div className="mt-8 flex justify-center">
         <div className="inline-flex rounded-md shadow">
+          <HeadShake delay={1000}>
           <Link
             to="#"
             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-ef-blue hover:bg-ef-red"
           >
             Je contacte un coach
           </Link>
+          </HeadShake>
         </div>
       </div>
     </section>

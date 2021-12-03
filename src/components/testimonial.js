@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import DoubleArrow from "../images/double-arrow-ef.png";
 
+import Fade from "react-reveal/Fade";
+
 const people = [
   {
     name: "Satoshi Nakamoto",
@@ -39,20 +41,22 @@ const Testimonial = () => {
         <p className="mt-3 mb-8 max-w-md mx-auto text-base text-gray-500 || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
           Nous avons une bonne nouvelle pour vous ...
         </p>
+        <Fade top>
         <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">
           <span className="block">
             Et si vous aviez un plan de route sûr et détaillé pour lancer
             rapidement votre activité ?
           </span>
         </h2>
+        </Fade>
       </div>
 
-      <div className="max-w-6xl mx-auto md:grid md:grid-cols-3 md:px-6 lg:px-8">
+      <div className="px-10 max-w-6xl mx-auto || md:px-0 md:grid md:grid-cols-3 md:px-6 lg:px-8">
         {people.map((person) => (
           <div className="py-2 px-4 || sm:py-12 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 lg:pr-16">
             <blockquote className="mt-6 || md:flex-grow md:flex md:flex-col">
               <div className="mt-8 mb-6">
-                <div className="flex items-start">
+                <div className="items-start text-center || md:text-left md:flex md:flex-row">
                   <div className="flex-shrink-0 inline-flex rounded-full border-2 border-ef-blue">
                     <img
                       className="h-12 w-12 object-cover rounded-full"

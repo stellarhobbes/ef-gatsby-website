@@ -1,6 +1,8 @@
 import React from "react";
 import RedLine from "../images/ef-line-red.png";
 
+import Fade from "react-reveal/Fade";
+
 const OneStepRight = (props) => {
   return (
     <div className="py-0 bg-white overflow-hidden lg:py-0">
@@ -20,6 +22,7 @@ const OneStepRight = (props) => {
               alt=""
             />
           </div>
+          <Fade right>
           <div id="content-column" className="relative text-center || sm:text-left">
             <img
               className="py-2 m-auto || sm:m-0"
@@ -38,6 +41,7 @@ const OneStepRight = (props) => {
             />
             <p className="mt-3 text-lg text-gray-500">{props.content}</p>
           </div>
+          </Fade>
         </div>
       </div>
     </div>
