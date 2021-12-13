@@ -41,13 +41,13 @@ const TestimonialCta = () => {
   return (
     <section className="bg-white pb-20">
       <div className="max-w-5xl mx-auto text-center pt-6 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
-        <p className="mt-3 mb-8 max-w-md mx-auto text-base text-gray-500 || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          ils ont suivi notre parcours
+        <p className="mt-3 mb-8 max-w-md mx-auto text-base text-ef-blue || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        Ils ont suivi nos parcours
         </p>
         <Fade top>
         <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">
           <span className="block">
-            Nous avons eu la chance de les former et ils ont réussi
+          Nous avons eu la chance de les former et ils ont réussi.
           </span>
         </h2>
         </Fade>
@@ -81,7 +81,7 @@ const TestimonialCta = () => {
               </div>
               <Link
                 to="#"
-                className="inline-flex items-center justify-center mt-6 px-5 py-3 border-2 border-ef-blue text-base font-medium rounded-md text-ef-blue bg-white hover:bg-ef-blue hover:text-white"
+                className="inline-flex items-center justify-center mt-6 px-5 py-3 border-2 border-ef-blue text-base font-medium rounded-md text-ef-blue bg-white hover:bg-ef-blue hover:text-white transition duration-500"
               >
                 Lire le témoignage
               </Link>
@@ -94,9 +94,9 @@ const TestimonialCta = () => {
           <HeadShake delay={1000}>
           <Link
             to="#"
-            className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-ef-blue hover:bg-ef-red"
+            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
           >
-            Je contacte un coach
+            Parler à un coach
           </Link>
           </HeadShake>
         </div>

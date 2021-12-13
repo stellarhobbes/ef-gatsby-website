@@ -62,8 +62,7 @@ const Formation = () => {
           <Fade top>
           <h2 className="text-4xl w-3/4 m-auto font-extrabold text-center uppercase font-title text-ef-blue tracking-tight text-gray-900 mb-20 || sm:text-4xl">
             <span className="block">
-              Retrouvez l’excellence à la française dans la formation qui va
-              vous <span className="underline">propulser</span>.
+            Choisissez parmis différents parcours qui vous emmèneront tout droit vers votre <span className="underline">réussite</span>.
             </span>
           </h2>
           </Fade>
@@ -92,7 +91,7 @@ const Formation = () => {
                 </div>
                 <Link
                   to={formation.url}
-                  className="inline-flex items-center justify-center mt-6 px-5 py-3 border-2 border-ef-blue text-base font-medium rounded-md text-ef-blue bg-white hover:bg-ef-blue hover:text-white"
+                  className="inline-flex items-center justify-center mt-6 px-5 py-3 border-2 border-ef-blue text-base font-medium rounded-md text-ef-blue bg-white hover:bg-ef-blue hover:text-white transition duration-500"
                 >
                   En savoir plus
                 </Link>

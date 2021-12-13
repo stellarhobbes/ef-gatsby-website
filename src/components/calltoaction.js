@@ -33,7 +33,7 @@ const CallToAction = (props) => {
             <HeadShake delay={1000}>
             <Link
               to="#"
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-ef-blue hover:bg-ef-red"
+              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
             >
               {props.buttonTitle}
             </Link>

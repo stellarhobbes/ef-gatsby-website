@@ -23,7 +23,7 @@ const PreFooter = (props) => {
         />
       </div>
       <div className="max-w-7xl mx-auto text-center py-12 px-4 || sm:px-6 lg:py-16 lg:px-8">
-        <p className="mt-3 mb-8 max-w-md mx-auto text-base text-gray-500 || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        <p className="mt-3 mb-8 max-w-md mx-auto text-base text-ef-blue || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
           {props.subtitle}
         </p>
         <Fade top>
@@ -36,7 +36,7 @@ const PreFooter = (props) => {
             <HeadShake delay={1000}>
             <Link
               to="#"
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-ef-blue hover:bg-ef-red"
+              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
             >
               {props.buttonTitle}
             </Link>

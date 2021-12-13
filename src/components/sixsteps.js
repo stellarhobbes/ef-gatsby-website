@@ -21,38 +21,38 @@ const SixSteps = () => {
     <div className="py-32">
       <OneStepLeft
         illustration={IllustrationOne}
-        title="Vous avez un projet, on en parle ensemble"
-        content="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur"
+        title="Nous définissons votre projet ensemble."
+        content="Et nous vous proposons la solution la plus adaptée à vos besoins avec des formations sur mesure et 100% pris en charge par le CPF."
         image={ArrowOne}
       />
       <OneStepRight
       illustration={IllustrationTwo}
-        title="Vous êtes guidés de la création à l’obtention de vos premiers clients"
-        content="Quisquam est qui dolorem ipsum quia dolor sit amet"
+        title="Vous avez une feuille de route précise."
+        content="Avec toutes les étapes à suivre pour avoir une vision claire et atteindre sereinement vos différents objectifs."
         image={ArrowTwo}
       />
       <OneStepLeft
       illustration={IllustrationThree}
-        title="Vous avez un cap précis et personnalisé"
-        content="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur"
+        title="Vous êtes guidé de A à Z."
+        content="Vous n’êtes plus seul… De la création de votre activité à vos premiers clients, nous sommes à vos côtés pour construire votre nouvelle vie."
         image={ArrowThree}
       />
       <OneStepRight
       illustration={IllustrationFour}
-        title="Vous saurez comment trouver et signer vos premiers clients"
-        content="Quisquam est qui dolorem ipsum quia dolor sit amet"
+        title="Nous vous donnons les clés de votre réussite."
+        content="À la fin de votre formation, vous saurez tout faire : trouver des clients, gérer une entreprise, etc.. En bref, vous n’aurez plus besoin de personne pour réussir !"
         image={ArrowFour}
       />
       <OneStepLeft
       illustration={IllustrationFive}
-        title="Vous apprenez les compétences qui font la différence"
-        content="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur"
+        title="Vous développez des compétences qui font la différence."
+        content="Et qui vous permettent de construire une activité qui fait sens pour vous tout en gagnant confortablement et durablement votre vie."
         image={ArrowFive}
       />
       <OneStepRight
       illustration={IllustrationSix}
-        title="Vous avez le job de vos rêves et en plus, C’est 100% pris en charge par votre CPF !"
-        content="Quisquam est qui dolorem ipsum quia dolor sit amet"
+        title="Vous devenez un entrepreneur accompli."
+        content="Et vous vivez enfin la vie que vous désirez, celle dans laquelle vous êtes aligné avec ce que vous faites et vous profitez pleinement de vos proches."
         image={ArrowSix}
       />
     </div>

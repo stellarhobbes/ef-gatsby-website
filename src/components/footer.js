@@ -64,7 +64,7 @@ const Footer = () => {
         <div className="md:grid md:grid-cols-4 md:gap-8">
           <div className="space-y-8 pr-4 || md:pr-40 md:col-span-2">
             <img className="h-16" src={LogoEf} alt="Company name" />
-            <p className="text-gray-500 text-base">
+            <p className="text-ef-blue text-base">
               Entreprenez, formez-vous grâce à nous et rejoignez l’excellence à la française
             </p>
             <div className="flex space-x-6">
@@ -91,7 +91,7 @@ const Footer = () => {
                     <li key={item.name}>
                       <Link
                         to={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-ef-blue hover:text-ef-light-blue"
                       >
                         {item.name}
                       </Link>
@@ -108,7 +108,7 @@ const Footer = () => {
                     <li key={item.name}>
                       <Link
                         to={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-ef-blue hover:text-ef-light-blue"
                       >
                         {item.name}
                       </Link>

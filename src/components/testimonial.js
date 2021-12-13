@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import DoubleArrow from "../images/double-arrow-ef.png";
 
 import Fade from "react-reveal/Fade";
+import HeadShake from "react-reveal/HeadShake";
 
 const people = [
   {
@@ -38,16 +39,16 @@ const Testimonial = () => {
   return (
     <section className="bg-white">
       <div className="max-w-5xl mx-auto text-center pt-16 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
-        <p className="mt-3 mb-8 max-w-md mx-auto text-base text-gray-500 || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Nous avons une bonne nouvelle pour vous ...
+        <p className="mt-3 mb-8 max-w-md mx-auto text-base text-ef-blue || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+          Vous ne savez pas par où commencer ? Pas de panique …
         </p>
         <Fade top>
-        <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">
-          <span className="block">
-            Et si vous aviez un plan de route sûr et détaillé pour lancer
-            rapidement votre activité ?
-          </span>
-        </h2>
+          <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">
+            <span className="block">
+              Nous vous accompagnons vers votre réussite grâce à un plan
+              d’action sur mesure …
+            </span>
+          </h2>
         </Fade>
       </div>
 
@@ -86,12 +87,14 @@ const Testimonial = () => {
       </div>
       <div className="mt-8 flex justify-center">
         <div className="inline-flex rounded-md shadow">
-          <Link
-            to="#"
-            className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-ef-blue hover:bg-ef-red"
-          >
-            Je contacte un coach
-          </Link>
+          <HeadShake delay={1000}>
+            <Link
+              to="#"
+              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
+            >
+              Parlez à un coach
+            </Link>
+          </HeadShake>
         </div>
       </div>
     </section>

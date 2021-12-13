@@ -18,7 +18,7 @@ const BlogPage = () => {
   `);
 
   return (
-    <body>
+    <body className="pt-28">
       <Navbar />
       <h1 className="text-indigo-600">Blog</h1>
       <ol>

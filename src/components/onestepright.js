@@ -15,12 +15,14 @@ const OneStepRight = (props) => {
             className="mt-10 -mx-4 relative hidden || lg:mt-0 md:block"
             aria-hidden="true"
           >
+            <Fade top>
             <img
               className="relative mx-auto"
               width={300}
               src={props.image}
               alt=""
             />
+            </Fade>
           </div>
           <Fade right>
           <div id="content-column" className="relative text-center || sm:text-left">
@@ -39,7 +41,7 @@ const OneStepRight = (props) => {
               src={RedLine}
               alt=""
             />
-            <p className="mt-3 text-lg text-gray-500">{props.content}</p>
+            <p className="mt-3 text-base font-light text-ef-blue">{props.content}</p>
           </div>
           </Fade>
         </div>

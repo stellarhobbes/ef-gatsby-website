@@ -2,7 +2,8 @@ import * as React from "react";
 
 // list of components
 import Comparaison from "../components/comparaison";
-import NavbarHeader from "../components/navbar-header";
+import Navbar from "../components/navbar";
+import Header from "../components/header";
 import CallToAction from "../components/calltoaction";
 import Testimonial from "../components/testimonial";
 import SixSteps from "../components/sixsteps";
@@ -18,9 +19,10 @@ import Footer from "../components/footer";
 
 const IndexPage = () => {
   return (
-    <main class>
-      <NavbarHeader />
-      <Comparaison className="z-1" />
+    <main className="pt-28">
+      <Navbar />
+      <Header />
+      <Comparaison />
       <div className="flex justify-center z-10 || md:-mt-52 sm:mt-2">
         <img
           className="flex align-item-center w-4/4 -mb-3 || sm:w-3/4 sm:-mb-0"
@@ -29,25 +31,25 @@ const IndexPage = () => {
         />
       </div>
       <CallToAction
-        title="Alors, vous êtes né(e) pour entreprendre !"
+        title="Alors l’entreprenariat est fait pour vous !"
         link=""
-        buttonTitle="Je fais le test"
+        buttonTitle="Quel entrepreneur se cache en vous ?"
       />
       <Testimonial />
       <SixSteps />
       <TestimonialCta />
       <CallToActionSimple
-        title="Les formations CPF de l'entrepreuneuriat Français"
+        title="Retrouvez l’excellence à la française dans des formations prise en charge à 100% par votre CPF"
         link=""
-        subtitle="Voici ce qui va vous permettre de décoller"
-        buttonTitle="Parler à un coach"
+        subtitle="Faites le bon choix pour vous et vos proches :"
+        buttonTitle="Trouvez votre formation"
       />
       <Formation />
       <Video />
       <PreFooter
         subtitle="Il est temps de changer de vie"
         title="Entreprenez et rejoignez l'excellence à la française"
-        buttonTitle="Faire mes premiers pas"
+        buttonTitle="Parlez à un coach"
         link=""
       />
       <Footer />
