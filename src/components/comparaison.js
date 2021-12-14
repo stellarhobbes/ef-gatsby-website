@@ -8,14 +8,12 @@ import Fade from "react-reveal/Fade";
 const negatives = [
   {
     title: "Si vous en avez assez de :",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
   },
 ];
 
 const positives = [
   {
     title: "Et que vous voulez…",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
   },
 ];
 
@@ -84,9 +82,6 @@ const Comparaison = () => {
                     <div className="mt-4 flex items-baseline text-3xl font-extrabold font-title uppercase text-ef-blue">
                       {negative.title}
                     </div>
-                    <p className="mt-5 text-lg text-ef-blue">
-                      {negative.description}
-                    </p>
                   </div>
                   <div className="flex-1 flex flex-row justify-between px-6 pt-6 pb-8 bg-white space-y-6 || sm:p-10 sm:pt-6">
                     <ul className="space-y-4">
@@ -124,9 +119,6 @@ const Comparaison = () => {
                     <div className="mt-4 flex items-baseline text-3xl font-extrabold font-title uppercase text-ef-blue">
                       {positive.title}
                     </div>
-                    <p className="mt-5 text-lg text-ef-blue">
-                      {positive.description}
-                    </p>
                   </div>
                   <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-white space-y-6 || sm:p-10 sm:pt-6">
                     <ul className="space-y-4">

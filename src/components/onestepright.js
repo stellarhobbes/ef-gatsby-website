@@ -36,7 +36,7 @@ const OneStepRight = (props) => {
               {props.title}
             </h3>
             <img
-              className="relative float-left py-2 hidden || md:block"
+              className="relative py-2 hidden || md:block"
               width={250}
               src={RedLine}
               alt=""
