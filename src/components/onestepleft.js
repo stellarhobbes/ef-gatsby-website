@@ -8,7 +8,7 @@ const OneStepLeft = (props) => {
     <div className="py-0 bg-white overflow-hidden || lg:py-0">
       <div className="relative max-w-xl mx-auto px-4 || sm:px-6 lg:px-8 lg:max-w-5xl">
         <div className="relative mt-12 || sm:mt-0 lg:grid lg:grid-cols-3 lg:gap-8 lg:items-center">
-        <Fade left>
+        
           <div id="content-column" className="relative text-center sm:text-left">
           <img
               className="py-2 m-auto || sm:m-0"
@@ -27,7 +27,7 @@ const OneStepLeft = (props) => {
             />
             <p className="mt-3 text-base font-light text-ef-blue || ">{props.content}</p>
           </div>
-          </Fade>
+          
 
           <div
             id="picture-column"

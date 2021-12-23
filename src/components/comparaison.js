@@ -1,7 +1,7 @@
 import React from "react";
 import { CheckIcon } from "@heroicons/react/outline";
 import { XIcon } from "@heroicons/react/outline";
-import BackgroundMountains from "../images/mountain-ef.png";
+import MountainsAnimation from "../images/gifs/P210001_1redversion.gif";
 
 import Fade from "react-reveal/Fade";
 
@@ -68,7 +68,7 @@ const Comparaison = () => {
         <div className="flex justify-center || sm:mb-2 md:-mb-60">
           <img
             className="flex align-item-center w-3/4 hidden || sm:block"
-            src={BackgroundMountains}
+            src={MountainsAnimation}
             alt="illustration montagnes entrepreuneuriat français"
           />
         </div>

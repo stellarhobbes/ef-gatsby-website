@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import LogoQualiopi from "../images/logo-qualiopi.png";
 import LogoDatadock from "../images/logo-datadock.webp";
-import BackgroundMountains from "../images/mountain-ef.png";
+import MountainsAnimation from "../images/gifs/P210001_1redversion.gif";
 
 import Fade from "react-reveal/Fade";
 import HeadShake from "react-reveal/HeadShake";
@@ -15,7 +15,7 @@ const Header = () => {
           <div className="flex justify-center || sm:visible md:hidden">
             <img
               className="flex align-item-center w-4/4 mb-2 || sm:w-3/4"
-              src={BackgroundMountains}
+              src={MountainsAnimation}
               alt="illustration montagnes entrepreuneuriat français"
             />
           </div>

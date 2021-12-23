@@ -24,7 +24,7 @@ const OneStepRight = (props) => {
             />
             </Fade>
           </div>
-          <Fade right>
+          
           <div id="content-column" className="relative text-center || sm:text-left">
             <img
               className="py-2 m-auto || sm:m-0"
@@ -43,7 +43,7 @@ const OneStepRight = (props) => {
             />
             <p className="mt-3 text-base font-light text-ef-blue">{props.content}</p>
           </div>
-          </Fade>
+          
         </div>
       </div>
     </div>
