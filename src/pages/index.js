@@ -21,7 +21,12 @@ const IndexPage = () => {
   return (
     <main className="pt-28">
       <Navbar />
-      <Header />
+      <Header 
+        title="Créez-vous une vie sur-mesure en devenant entrepreneur"
+        subtitle="Grâce aux formations de l’Entreprenariat Français, développez vos compétences pour lancer une activité rentable - et qui fait sens pour vous - en moins de x semaines."
+        sentence=""
+        buttonTitle="Je veux entrependre et changer de vie"
+      />
       <Comparaison />
       <div className="flex justify-center z-10 || md:-mt-52 sm:mt-2">
         <img

@@ -9,7 +9,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Slide from "react-reveal/Slide";
 
 const navigation = [
-  { name: "Formations", href: "#" },
+  { name: "Formations", href: "/formation" },
   { name: "Blog", href: "/blog" },
 ];
 
@@ -45,7 +45,7 @@ const Navbar = () => {
                   </div>
                 </div>
 
-                <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-56">
+                <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-80">
                   {navigation.map((item) => (
                     <Link
                       key={item.name}
@@ -63,7 +63,7 @@ const Navbar = () => {
                       to="#"
                       className="transition duration-500 inline-flex items-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
                     >
-                      Faites le test !
+                      Quel est le job de vos rêves ?
                     </Link>
                   </span>
                 </div>

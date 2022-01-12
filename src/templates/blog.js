@@ -18,7 +18,7 @@ export const query = graphql`
 
 const Blog = (props) => {
   return (
-    <body>
+    <body className="mt-28">
       <Head title={props.data.contentfulBlogPost.title} />
       <Navbar />
       <div className="relative py-16 bg-white overflow-hidden">

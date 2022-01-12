@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import BlueLine from "../images/ef-line-blue.png";
 import RedLine from "../images/ef-line-red.png";
 import LogoQualiopi from "../images/logo-qualiopi.png";
-import LogoDatadock from "../images/logo-datadock.webp";
+import LogoCompteFormation from "../images/logo-moncompteformation.png";
 
 import Fade from "react-reveal/Fade";
 import HeadShake from 'react-reveal/HeadShake';
@@ -54,7 +54,7 @@ const CallToAction = (props) => {
             <Link to="/">
               <img
                 className="h-16 w-auto"
-                src={LogoDatadock}
+                src={LogoCompteFormation}
                 alt="logo entrepreneuriat français"
               />
             </Link>
