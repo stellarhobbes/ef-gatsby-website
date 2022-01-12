@@ -2,29 +2,9 @@ import React from "react";
 import { Link } from "gatsby";
 
 import HeadShake from "react-reveal/HeadShake";
-import anime from "animejs/lib/anime.es.js";
-
 import PeopleMosaic from "../../images/people-mosaic.png";
 
 const NumbersClosing = () => {
-  anime({
-    targets: "#anime01",
-    innerHTML: [0, 372],
-    easing: "linear",
-    round: 1,
-  });
-  anime({
-    targets: "#anime02",
-    innerHTML: [0, 94 + "%"],
-    easing: "linear",
-    round: 1,
-  });
-  anime({
-    targets: "#anime03",
-    innerHTML: [0, 100 + "%"],
-    easing: "linear",
-    round: 1,
-  });
   return (
     <div className="bg-white pt-12 sm:pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
