@@ -1,6 +1,6 @@
 import React from "react";
 import RedLine from "../../images/ef-line-red.png";
-import PathToFlag from "../../images/path-to-flag.png";
+import PathToFlag from "../../images/gifs/cross-to-flag.gif";
 import Fade from "react-reveal/Fade";
 
 const steps = [
@@ -47,12 +47,14 @@ const StepsClosing = () => {
           : nous vous accompagnons tout au long de votre projet.
         </p>
       </div>
+      <Fade>
       <img
         className="py-2 hidden || md:mx-auto md:block"
         width={850}
         src={PathToFlag}
         alt=""
       />
+      </Fade>
       <div className="max-w-7xl mx-auto md:grid md:grid-cols-4 md:px-6 lg:px-8">
         {steps.map((step) => (
           <div className="py-2 px-4 || sm:py-12 sm:px-6 md:flex md:flex-col md:py-10 md:pl-0 md:pr-6 lg:p-2">

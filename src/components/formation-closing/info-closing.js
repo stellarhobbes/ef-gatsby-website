@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 import { CheckIcon } from "@heroicons/react/outline";
-import DoubleArrow from "../../images/double-arrow-ef.png";
+import DoubleArrow from "../../images/gifs/arrow-animation.gif";
 import LogoQualiopi from "../../images/logo-qualiopi.png";
 import LogoCompteFormation from "../../images/logo-moncompteformation.png";
 

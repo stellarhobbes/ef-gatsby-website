@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import LogoQualiopi from "../images/logo-qualiopi.png";
 import LogoCompteFormation from "../images/logo-moncompteformation.png";
-import MountainsAnimation from "../images/gifs/P210001_1redversion.gif";
+import MountainsAnimation from "../images/gifs/P210001_1redversion2.gif";
 
 import Fade from "react-reveal/Fade";
 import HeadShake from "react-reveal/HeadShake";

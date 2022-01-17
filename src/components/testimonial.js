@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import DoubleArrow from "../images/double-arrow-ef.png";
+import DoubleArrow from "../images/gifs/arrow-animation.gif";
 
 import Fade from "react-reveal/Fade";
 import HeadShake from "react-reveal/HeadShake";

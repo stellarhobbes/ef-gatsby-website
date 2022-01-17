@@ -1,7 +1,7 @@
 import React from "react";
 import { CheckIcon } from "@heroicons/react/outline";
 import { XIcon } from "@heroicons/react/outline";
-import MountainsAnimation from "../images/gifs/P210001_1redversion.gif";
+import MountainsAnimation from "../images/gifs/P210001_1redversion2.gif";
 
 import Fade from "react-reveal/Fade";
 

@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "gatsby";
 import LogoQualiopi from "../../images/logo-qualiopi.png";
 import LogoCompteFormation from "../../images/logo-moncompteformation.png";
-import MountainsAnimation from "../../images/gifs/P210001_1redversion.gif";
 
 import Fade from "react-reveal/Fade";
 import HeadShake from "react-reveal/HeadShake";
@@ -12,13 +11,6 @@ const HeaderFormationClosing = () => {
     <div className="relative overflow-hidden">
       <main className="mt-16 mx-auto max-w-7xl px-0 || md:pt-16 sm:pt-0 sm:mt-24">
         <div className="text-center">
-          <div className="flex justify-center || sm:visible md:hidden">
-            <img
-              className="flex align-item-center w-4/4 mb-2 || sm:w-3/4"
-              src={MountainsAnimation}
-              alt="illustration montagnes entrepreuneuriat français"
-            />
-          </div>
           <Fade top>
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <span className="block font-title uppercase text-ef-blue xl:inline">

@@ -9,12 +9,12 @@ import ArrowFour from "../images/arrow/arrow-ef-four.png";
 import ArrowFive from "../images/arrow/arrow-ef-five.png";
 import ArrowSix from "../images/arrow/arrow-ef-six.png";
 
-import AnimationOne from "../images/gifs/step1-animation.gif";
-import AnimationTwo from "../images/gifs/step2-animation.gif";
-import AnimationThree from "../images/gifs/step3-animation.gif";
-import AnimationFour from "../images/gifs/step4-animation.gif";
-import AnimationFive from "../images/gifs/step5-animation.gif";
-import AnimationSix from "../images/gifs/step6-animation.gif";
+import AnimationOne from "../images/gifs/step-01.gif";
+import AnimationTwo from "../images/gifs/step-02.gif";
+import AnimationThree from "../images/gifs/step-03.gif";
+import AnimationFour from "../images/gifs/step-04.gif";
+import AnimationFive from "../images/gifs/step-05.gif";
+import AnimationSix from "../images/gifs/step-06.gif";
 
 const SixSteps = () => {
   return (
