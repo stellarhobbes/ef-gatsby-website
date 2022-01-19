@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 import Fade from "react-reveal/Fade";
-import HeadShake from 'react-reveal/HeadShake';
+import HeadShake from "react-reveal/HeadShake";
 
 const people = [
   {
@@ -12,6 +12,7 @@ const people = [
     age: 43,
     parcours:
       "Ancien employé dans une agence et nouveau Community Manager Freelance heureux",
+    stars: " ★ ★ ★ ★ ☆",
     message:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.",
   },
@@ -22,6 +23,7 @@ const people = [
     age: 23,
     parcours:
       "Ancien employé dans une agence et nouveau Community Manager Freelance heureux",
+    stars: " ★ ★ ★ ★ ★",
     message:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.",
   },
@@ -32,6 +34,7 @@ const people = [
     age: 50,
     parcours:
       "Ancien employé dans une agence et nouveau Community Manager Freelance heureux",
+    stars: " ★ ★ ★ ★ ☆",
     message:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.",
   },
@@ -42,14 +45,14 @@ const TestimonialCta = () => {
     <section className="bg-white pb-20">
       <div className="max-w-5xl mx-auto text-center pt-6 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
         <p className="mt-3 mb-8 max-w-md mx-auto text-base text-ef-blue || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        Ils ont suivi nos parcours
+          Ils ont suivi nos parcours
         </p>
         <Fade top>
-        <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">
-          <span className="block">
-          Nous avons eu la chance de les former et ils ont réussi.
-          </span>
-        </h2>
+          <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">
+            <span className="block">
+              Nous avons eu la chance de les former et ils ont réussi.
+            </span>
+          </h2>
         </Fade>
       </div>
 
@@ -76,6 +79,9 @@ const TestimonialCta = () => {
                   </div>
                 </div>
               </div>
+              <div id="stars" className="flex text-ef-blue pb-2">
+                {person.stars}
+              </div>
               <div className="relative text-base font-light text-ef-blue || md:flex-grow">
                 <p className="relative">{person.message}</p>
               </div>
@@ -92,12 +98,12 @@ const TestimonialCta = () => {
       <div className="mt-8 flex justify-center">
         <div className="inline-flex rounded-md shadow">
           <HeadShake delay={1000}>
-          <Link
-            to="#"
-            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
-          >
-            Parler à un coach
-          </Link>
+            <Link
+              to="#"
+              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
+            >
+              Parler à un coach
+            </Link>
           </HeadShake>
         </div>
       </div>

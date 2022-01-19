@@ -34,7 +34,7 @@ const Header = (props) => {
               <HeadShake appear={true} delay={1000}>
                 <Link
                   to="#"
-                  className="w-3/4 m-auto flex items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500 || md:w-full md:py-4 md:px-10"
+                  className="w-full m-auto flex items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500 || md:w-full md:py-4 md:px-10"
                 >
                   {props.buttonTitle}
                 </Link>

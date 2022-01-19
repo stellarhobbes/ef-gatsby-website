@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "../components/navbar";
 import PreFooter from "../components/prefooter";
-import Footer from "../components/footer";
+import CentralFooter from "../components/footer-central";
 
 import HeaderClosing from "../components/formation-closing/header-formation-closing";
 import ComparaisonClosing from "../components/formation-closing/comparaison-formation-closing";
@@ -37,7 +37,7 @@ const ClosingPage = () => {
         buttonTitle="Parlez à un coach"
         link=""
       />
-      <Footer />
+      <CentralFooter />
     </body>
   );
 };

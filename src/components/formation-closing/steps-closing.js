@@ -49,7 +49,7 @@ const StepsClosing = () => {
       </div>
       <Fade>
       <img
-        className="py-2 hidden || md:mx-auto md:block"
+        className="py-2 px-10 || md:px-0 md:mx-auto md:block"
         width={850}
         src={PathToFlag}
         alt=""

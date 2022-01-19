@@ -31,7 +31,7 @@ const PreFooter = (props) => {
           <span className="block">{props.title}</span>
         </h2>
         </Fade>
-        <div className="mt-8 flex justify-center">
+        <div id="button "className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md shadow">
             <HeadShake delay={1000}>
             <Link

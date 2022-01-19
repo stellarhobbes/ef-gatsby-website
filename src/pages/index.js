@@ -15,7 +15,7 @@ import PreFooter from "../components/prefooter";
 
 // list of assets, images ...
 import DancingEf from "../images/ef-dancing.png";
-import Footer from "../components/footer";
+import CentralFooter from "../components/footer-central";
 
 const IndexPage = () => {
   return (
@@ -57,7 +57,7 @@ const IndexPage = () => {
         buttonTitle="Parlez à un coach"
         link=""
       />
-      <Footer />
+      <CentralFooter />
     </main>
   );
 };

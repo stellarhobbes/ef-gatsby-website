@@ -30,7 +30,7 @@ const DescriptionClosing = () => {
           moment pour se lancer. <br />
           <br />
           En choisissant le closing, c’est la garantie pour vous d’avoir une
-          activité dans laquelle vous : 
+          activité dans laquelle vous :
         </p>
         <div className="flex">
           <CheckIcon

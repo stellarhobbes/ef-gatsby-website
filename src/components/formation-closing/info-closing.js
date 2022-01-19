@@ -6,34 +6,31 @@ import DoubleArrow from "../../images/gifs/arrow-animation.gif";
 import LogoQualiopi from "../../images/logo-qualiopi.png";
 import LogoCompteFormation from "../../images/logo-moncompteformation.png";
 
+import HeadShake from "react-reveal/HeadShake";
 import Fade from "react-reveal/Fade";
 
 const informations = [
   {
     id: 1,
-    title:
-      "47 cours enregistrés répartis sur 4 modules",
+    title: "47 cours enregistrés répartis sur 4 modules",
     content:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
   },
   {
     id: 2,
-    title:
-      "Des supports de cours",
+    title: "Des supports de cours",
     content:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
   },
   {
     id: 3,
-    title:
-      "Des études de cas",
+    title: "Des études de cas",
     content:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
   },
   {
     id: 4,
-    title:
-      "Des modules récurrents",
+    title: "Des modules récurrents",
     content:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
   },
@@ -58,15 +55,16 @@ const InfoClosing = () => {
           />
         </div>
         <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue w-2/4 mx-auto mb-10 text-center tracking-tight text-gray-900 || sm:text-4xl">
-            <span className="block">
-              Et voilà tout ce que vous allez trouver dans la formation sur le closing.
-            </span>
-          </h2>
+          <span className="block">
+            Et voilà tout ce que vous allez trouver dans la formation sur le
+            closing.
+          </span>
+        </h2>
         <div className="absolute inset-0 h-3/4" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 || sm:px-6 lg:px-8">
           <div className="max-w-md mx-auto space-y-4 || lg:max-w-3xl lg:grid lg:grid-cols-1 lg:gap-5 lg:space-y-0">
             <Fade left delay={200}>
-              <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+              <div className="flex flex-col rounded-lg shadow-lg overflow-hidden mb-10">
                 <div className="flex-1 flex flex-row justify-between px-6 pt-6 pb-8 bg-white space-y-6 || sm:p-10 sm:pt-6">
                   <ul className="space-y-4">
                     {informations.map((information) => (
@@ -91,29 +89,41 @@ const InfoClosing = () => {
                 </div>
               </div>
             </Fade>
-            <div id="double-logo" className="mt-8 flex justify-center">
-                <div className="inline-flex rounded-md">
-                  <Link to="/">
-                    <img
-                      className="h-16 w-auto"
-                      src={LogoQualiopi}
-                      alt="logo entrepreneuriat français"
-                    />
-                  </Link>
-                </div>
-                <div className="ml-3 inline-flex">
-                  <Link to="/">
-                    <img
-                      className="h-16 w-auto"
-                      src={LogoCompteFormation}
-                      alt="logo entrepreneuriat français"
-                    />
-                  </Link>
-                </div>
+            <div id="double-logo" className="mt-16 flex justify-center">
+              <div className="inline-flex rounded-md">
+                <Link to="/">
+                  <img
+                    className="h-16 w-auto"
+                    src={LogoQualiopi}
+                    alt="logo entrepreneuriat français"
+                  />
+                </Link>
               </div>
+              <div className="ml-3 inline-flex">
+                <Link to="/">
+                  <img
+                    className="h-16 w-auto"
+                    src={LogoCompteFormation}
+                    alt="logo entrepreneuriat français"
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div id="button" className="mt-8 flex justify-center">
+              <div className="inline-flex rounded-md shadow">
+                <HeadShake delay={1000}>
+                  <Link
+                    to="#"
+                    className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
+                  >
+                    Donnez moi un accès !
+                  </Link>
+                </HeadShake>
+              </div>
+            </div>
     </div>
   );
 };

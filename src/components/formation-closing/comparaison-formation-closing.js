@@ -155,7 +155,7 @@ const ComparaisonFormation = () => {
               </Fade>
             ))}
           </div>
-          <div className="max-w-5xl mx-auto text-center pt-8 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
+          <div className="hidden max-w-5xl mx-auto text-center pt-8 pb-0 px-4 || sm:block sm:px-6 lg:pb-0 lg:px-8">
             <p className="mt-3 mb-8 max-w-md mx-auto text-base text-ef-blue || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
               Aujourd’hui, grâce à l’Entreprenariat Français vous pouvez
               apprendre ce métier d’avenir sans débourser un euro même si vous
@@ -166,7 +166,7 @@ const ComparaisonFormation = () => {
           <HeadShake appear={true} delay={1000}>
             <Link
               to="#"
-              className="w-1/4 m-auto mt-6 flex items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500 || md:py-4 md:px-10"
+              className="w-3/4 m-auto mt-6 mb-10 flex items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || sm:w-1/4 hover:text-ef-blue hover:bg-white transition duration-500 || md:py-4 md:px-10"
             >
               Réservez votre formation
             </Link>

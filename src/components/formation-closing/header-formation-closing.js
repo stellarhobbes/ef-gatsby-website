@@ -9,7 +9,7 @@ import HeadShake from "react-reveal/HeadShake";
 const HeaderFormationClosing = () => {
   return (
     <div className="relative overflow-hidden">
-      <main className="mt-16 mx-auto max-w-7xl px-0 || md:pt-16 sm:pt-0 sm:mt-24">
+      <main className="mt-48 mx-auto max-w-7xl px-0 || md:pt-16 sm:pt-0 sm:mt-36">
         <div className="text-center">
           <Fade top>
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -26,7 +26,7 @@ const HeaderFormationClosing = () => {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/W96_d_LKie4"
+              src="https://www.youtube.com/embed/sGOTCCVDLtQ"
               title="Nom de la Vidéo"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

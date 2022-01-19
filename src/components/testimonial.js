@@ -12,6 +12,7 @@ const people = [
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     age: 43,
     parcours: "Financier reconverti dans le minage",
+    stars: " ★ ★ ★ ★ ☆",
     message:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.",
   },
@@ -21,6 +22,7 @@ const people = [
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     age: 23,
     parcours: "Étudiant diplômé entré à l'école de pilote de ligne",
+    stars: " ★ ★ ★ ★ ★",
     message:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.",
   },
@@ -30,6 +32,7 @@ const people = [
       "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80",
     age: 50,
     parcours: "Ancien shérif en formation de bûcheron / élagueur",
+    stars: " ★ ★ ★ ★ ☆",
     message:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.",
   },
@@ -74,6 +77,9 @@ const Testimonial = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div id="stars" className="flex text-ef-blue pb-2">
+                {person.stars}
               </div>
               <div className="relative text-base font-light text-ef-blue || md:flex-grow">
                 <p className="relative">{person.message}</p>

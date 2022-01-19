@@ -9,33 +9,43 @@ import LogoCompteFormation from "../../images/logo-moncompteformation.png";
 import BlueLine from "../../images/ef-line-blue.png";
 import RedLine from "../../images/ef-line-red.png";
 
-import HeadShake from "react-reveal/HeadShake";
-
 const program = [
   {
     chapter: "Introduction de la formation",
-    content:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    content: "1. Présentation du formateur n/ 2. Qu'est-ce que le Closing ?",
   },
   {
-    chapter: "Module 1 : Dolor sit amet consectetur adipisicing elit.",
+    chapter:
+      "Socle : Les sciences cognitives comme base de développement personnel",
     content:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "1. Se connaître et comprendre les autres n/ 2. Développer son intelligence émotionnelle n/ 3. Reconnaître les différents types d'instincts grâce à l'ennéagramme n/ 4. Psychologie : repérer les différents types de personnalités et adapter son discours n/ 5. Linguistique : savoir communiquer efficacement pour avoir un discours impactant n/ 6. Anthropologie : connaître le fonctionnement de l’être humain n/ 7. Neuroscience : les biais cognitifs n/ 8. Systémique : les spirales dynamiques et les facteurs de motivation n/ 9. PNL : les bases de la Programmation Neuro Linguistique n/ 10. Savoir fixer des objectifs que l’on est sûr d’atteindre",
   },
   {
-    chapter: "Module 2 : Dolor sit amet consectetur adipisicing elit.",
+    chapter: "Bloc 1 : Occuper le terrain, une réelle compétence",
     content:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "1. Créer une stratégie efficiente pour optimiser son volume d’appel n/ 2. S’auto coacher pour gérer au mieux son énergie et son mindset n/ 3. Les créneaux propices aux “Appels décrochés” n/ 4. Ne plus subir sa journée et savoir planifier ses deuxièmes entretiens de vente( follow up ) et ses tâches administratives n/ 5. Bonus : Les outils du suivi de son activité du tableau excel à Hubspot n/ 6. Bonus : La prise de rendez-vous téléphonique et le barrage de la secrétaire",
   },
   {
-    chapter: "Module 3 : Dolor sit amet consectetur adipisicing elit.",
+    chapter: "Bloc 2 : La fenêtre d’attention (Opening)",
     content:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "1. Définition de la fenêtre d’attention n/ 2. Les 3 premières secondes, les 3 premiers mots, les trois premières respirations n/ 3. L’art de se présenter n/ 4. Comment éviter de rentrer directement en description de l’offre n/ 5. Se synchroniser avec la PNL et préparer un terrain propice à la confiance n/ 6. Amenez votre interlocuteur à parler de lui.",
   },
   {
-    chapter: "Module 4 : Dolor sit amet consectetur adipisicing elit.",
+    chapter: "Bloc 3 : Le coaching décisionnel",
     content:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "1. Pourquoi les techniques de vente ne fonctionnent-elles jamais ? n/ 2. Maîtriser la mécanique du changement n/ 3. La magie du questionnement n/ 4. Communiquer avec l'inconscient de votre interlocuteur n/ 5. Savoir générer des émotions n/ 6. États désirés, faire vivre des expériences extraordinaires n/ 7. Le retour à la réalité et à l’état présent",
+  },
+  {
+    chapter: "Conclure",
+    content: "1. Pitcher avec brio son offre n/ 2. Les 3 trames de ventes les plus efficaces adaptées à chaque produits n/ 3. Le flow ou comment éviter les objections n/ 4. Traiter les objections et libérer les prospects des 3 blocages fondamentaux n/ 5. Rassurer et guider vers le succès",
+  },
+  {
+    chapter: "Comptabilité",
+    content: "1. Choisir sa structure juridique n/ 2. Le prévisionnel n/ 3. Le régime social des indépendants n/ 4. Lire et analyser son bilan n/ 5. Lire et analyser son compte de résultat n/ 6. Les rôles de l’expert comptable",
+  },
+  {
+    chapter: "BONUS",
+    content: "1. Faire des vidéos captivantes sur YouTube n/ 2. Branding : le discours de marque n/ 3. Répondre à un commentaire en public n/ 4. L’expérience client n/ 5. Talent digital : l’outil de prospection multicanal",
   },
 ];
 
@@ -57,9 +67,9 @@ const ProgramClosing = () => {
         />
       </div>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-6 sm:px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto divide-y-2 divide-gray-200 pb-20 ">
+        <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200 pb-20 ">
           <h2 className="text-center text-3xl font-extrabold font-title pb-10 uppercase text-ef-blue sm:text-4xl">
-            Nous répondons à toutes vos questions.
+            Le programme complet de la formation sur le closing
           </h2>
           <dl className="mt-6 space-y-6 divide-y divide-gray-200">
             {program.map((program) => (
@@ -84,7 +94,9 @@ const ProgramClosing = () => {
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
                       <p className="text-base text-ef-blue">
-                        {program.content}
+                        {program.content.split("n/").map((str) => (
+                          <p>{str}</p>
+                        ))}
                       </p>
                     </Disclosure.Panel>
                   </>
@@ -111,18 +123,6 @@ const ProgramClosing = () => {
                 alt="logo entrepreneuriat français"
               />
             </Link>
-          </div>
-        </div>
-        <div id="button" className="mt-8 flex justify-center">
-          <div className="inline-flex rounded-md shadow">
-            <HeadShake delay={1000}>
-              <Link
-                to="#"
-                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
-              >
-                Donnez moi un accès !
-              </Link>
-            </HeadShake>
           </div>
         </div>
       </div>

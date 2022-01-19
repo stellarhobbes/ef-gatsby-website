@@ -12,33 +12,33 @@ const faq = [
   {
     question: "Où est situé votre centre de formation ?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Il est à Lyon mais c’est quand même plus sympa de faire votre formation à votre rythme depuis votre canap’ non ?",
   },
   {
     question: "Puis-je suivre vos formations en présentiel ?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Oui certaines de nos formations intègrent des modules en présentiel. Nous faisons des stages en immersion et des Mastermind toute l’année.",
   },
   {
     question: "Que faire s'il y a des choses que je ne comprends pas ?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Vous pouvez nous poser vos questions 7/7j 24/24h. Un membre de notre équipe vous répondra le plus rapidement possible.",
   },
   {
     question: "Combien de temps dure la formation ?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Ca dépend de vous et du temps que vous y accordez. Vous aurez accès à vie au contenu et à ses mises à jour.",
   },
   {
     question: "Quand puis-je espérer avoir des résultats ?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Certains de nos élèves ont des résultats avant même la fin de leur formations car chaque module est conçu par des entrepreneurs.",
   },
   {
     question:
       "Qui sont nos coachs / formateurs de l'Entrepreneuriat Français ?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Cette formation a été créé par Laurent Alventosa, commercial depuis 1997 et formateur depuis plus de 10 ans. Il est passionné de sciences cognitives, il est aussi coach expert et maître praticien en PNL. Tous les coachs intervenants dans cette formation sont des commerciaux de plus de 10 ans d’expériences et experts de leur métier.",
   },
 ];
 
@@ -62,7 +62,7 @@ const FaqClosing = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-6 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto divide-y-2 divide-gray-200 pb-20 ">
           <h2 className="text-center text-3xl font-extrabold font-title pb-10 uppercase text-ef-blue sm:text-4xl">
-            Le programme complet de la formation sur le closing
+            Nous répondons à toutes vos questions.
           </h2>
           <dl className="mt-6 space-y-6 divide-y divide-gray-200">
             {faq.map((faq) => (
