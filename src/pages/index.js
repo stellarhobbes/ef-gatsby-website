@@ -9,7 +9,6 @@ import Testimonial from "../components/testimonial";
 import SixSteps from "../components/sixsteps";
 import TestimonialCta from "../components/testimonial-cta";
 import CallToActionSimple from "../components/calltoaction-simple";
-import Formation from "../components/formations";
 import Video from "../components/video";
 import PreFooter from "../components/prefooter";
 
@@ -49,7 +48,6 @@ const IndexPage = () => {
         subtitle="Faites le bon choix pour vous et vos proches :"
         buttonTitle="Trouvez votre formation"
       />
-      <Formation />
       <Video />
       <PreFooter
         subtitle="Il est temps de changer de vie"

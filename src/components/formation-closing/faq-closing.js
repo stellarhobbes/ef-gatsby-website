@@ -1,12 +1,9 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import { Disclosure } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/outline";
 
 import RedLine from "../../images/ef-line-red.png";
-
-import HeadShake from "react-reveal/HeadShake";
 
 const faq = [
   {
@@ -93,18 +90,6 @@ const FaqClosing = () => {
               </Disclosure>
             ))}
           </dl>
-        </div>
-        <div id="button" className="mt-8 flex justify-center">
-          <div className="inline-flex rounded-md shadow">
-            <HeadShake delay={1000}>
-              <Link
-                to="#"
-                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
-              >
-                Parler avec un coach
-              </Link>
-            </HeadShake>
-          </div>
         </div>
       </div>
     </div>
