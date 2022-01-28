@@ -16,7 +16,7 @@ const BlogPage = () => {
             title
             slug
             headline
-            publishedDate(formatString: "DD MMMM YYYY")
+            publishedDate(formatString: "DD/MM/YYYY")
             image {
               file {
                 url
@@ -44,21 +44,21 @@ const BlogPage = () => {
           labore natus atque, ducimus sed.
         </p>
       </div>
-      <div className="bg-white px-4 pt-8 pb-20 sm:px-6 lg:px-8 lg:pt-8 lg:pb-28">
+      <div className="bg-white px-4 pt-8 pb-20 mb-20 sm:px-6 lg:px-8 lg:pt-8 lg:pb-28">
         <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
           <div className="mt-6 grid gap-16 pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
             {data.allContentfulBlogPost.edges.map((edge) => (
               <div key={edge.node.title}>
                 <Link to={`/blog/${edge.node.slug}`}>
                 <img className="w-4/4 h-3/4 mb-6" src={edge.node.image.file.url} alt="" />
-                <p className="text-sm text-gray-500">
+                <p className="text-base text-ef-blue">
                   <time dateTime={edge.node.publishedDate}>
                     {edge.node.publishedDate}
                   </time>
                 </p>
                 </Link>
                 <Link to={`/blog/${edge.node.slug}`} className="mt-2 block">
-                  <p className="text-ef-blue text-xl font-semibold">
+                  <p className="text-ef-blue text-2xl font-bold">
                     {edge.node.title}
                   </p>
                   <p className="text-ef-blue mt-3 text-base">

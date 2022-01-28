@@ -12,34 +12,24 @@ import Fade from "react-reveal/Fade";
 const informations = [
   {
     id: 1,
-    title: "47 cours enregistrés répartis sur 4 modules",
-    content:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    title: "Devenir une meilleure version de vous-même en développant des compétences qui changent des vies.",
   },
   {
     id: 2,
-    title: "Des supports de cours",
-    content:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    title: "Être pleinement épanoui grâce à une activité qui fait sens pour vous et dans laquelle vous participez à rendre le monde meilleur.",
   },
   {
     id: 3,
-    title: "Des études de cas",
-    content:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    title: "Mettre votre famille à l’abri en gagnant confortablement votre vie sans dépendre de l’Etat ou d’un patron.",
   },
   {
     id: 4,
-    title: "Des modules récurrents",
-    content:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+    title: "Atteindre la liberté géographique et financière qui vous permet de mener à bien tous vos projets",
   },
   {
     id: 5,
     title:
-      "À la fin de votre formation, vous n'êtes pas lâchés dans la nature !",
-    content:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+      "Créer une vie sur mesure dans laquelle vous avez le temps de profiter de vos proches et de voir grandir vos enfants.",
   },
 ];
 
@@ -56,8 +46,7 @@ const InfoClosing = () => {
         </div>
         <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue w-2/4 mx-auto mb-10 text-center tracking-tight text-gray-900 || sm:text-4xl">
           <span className="block">
-            Et voilà tout ce que vous allez trouver dans la formation sur le
-            closing.
+          A la fin de votre formation, vous aurez toutes les cartes en main pour …
           </span>
         </h2>
         <div className="absolute inset-0 h-3/4" />
@@ -116,8 +105,8 @@ const InfoClosing = () => {
               <div className="inline-flex rounded-md shadow">
                 <HeadShake delay={1000}>
                   <Link
-                    to="#"
-                    className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
+                    to="/contact"
+                    className="inline-flex items-center uppercase justify-center px-5 py-3 text-sm font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
                   >
                     Donnez moi un accès !
                   </Link>

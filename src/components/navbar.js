@@ -63,7 +63,7 @@ const Navbar = () => {
                       to="/contact"
                       className="transition duration-500 inline-flex items-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
                     >
-                      Quel est le job de vos rêves ?
+                      Réservez votre formation
                     </Link>
                   </span>
                 </div>
@@ -114,7 +114,7 @@ const Navbar = () => {
                     to="/contact"
                     className="block w-full px-5 py-3 uppercase text-center font-medium text-white bg-ef-blue hover:bg-ef-light-blue"
                   >
-                    Faites le test !
+                    Réservez votre formation
                   </Link>
                 </div>
               </Popover.Panel>

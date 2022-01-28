@@ -111,10 +111,10 @@ const TestimonialVideoClosing = () => {
         <div className="inline-flex rounded-md shadow">
           <HeadShake delay={1000}>
             <Link
-              to="#"
-              className="bg-ef-blue border-ef-blue hover:text-ef-blue inline-flex items-center justify-center rounded-md border-2 px-5 py-3 text-base font-medium text-white transition duration-500 hover:bg-white"
+              to="/contact"
+              className="bg-ef-blue border-ef-blue hover:text-ef-blue uppercase inline-flex items-center justify-center rounded-md border-2 px-5 py-3 text-sm uppercase font-medium text-white transition duration-500 hover:bg-white"
             >
-              Votre formation en ligne
+              Cliquez ici pour changer de vie
             </Link>
           </HeadShake>
         </div>

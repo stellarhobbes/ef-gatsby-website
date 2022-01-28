@@ -34,7 +34,7 @@ const ClosingPage = () => {
       <PreFooter
         subtitle="Il est temps de changer de vie"
         title="L’entreprenariat Français, votre ticket vers la liberté"
-        buttonTitle="Parlez à un coach"
+        buttonTitle="Réservez votre appel avec un coach"
         link=""
       />
       <CentralFooter />

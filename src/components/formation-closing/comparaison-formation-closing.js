@@ -165,10 +165,10 @@ const ComparaisonFormation = () => {
 
           <HeadShake appear={true} delay={1000}>
             <Link
-              to="#"
-              className="w-3/4 m-auto mt-6 mb-10 flex items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || sm:w-1/4 hover:text-ef-blue hover:bg-white transition duration-500 || md:py-4 md:px-10"
+              to="/contact"
+              className="w-3/4 m-auto mt-6 mb-10 flex items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || sm:w-1/3 hover:text-ef-blue hover:bg-white transition duration-500 || md:py-4 md:px-10"
             >
-              Réservez votre formation
+              Devenez entrepreneur dès aujourd'hui
             </Link>
           </HeadShake>
         </div>

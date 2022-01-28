@@ -8,20 +8,17 @@ const cibles = [
   {
     url:"",
     title:
-      "Pour les salariés qui veulent se créer un job sur mesure qui leur correspond",
-    text: "Apprendre le closing est l’occasion pour vous de vous reconvertir dans une activité qui vous permet de vivre confortablement et de ne plus jamais avoir peur des fins de mois difficiles. Tout ça en ayant le temps de profiter de votre famille et de voir grandir vos enfants.",
+      "Pour les salariés qui veulent se créer un job sur mesure et avoir le temps de profiter de leurs proches",
   },
   {
     url: "",
     title:
-      "Pour les chômeurs qui souhaitent trouver un job qui fait sens pour eux",
-    text: "Oubliez les recherches d’emploi infructueuses et les entretiens qui n’aboutissent pas. En apprenant le Closing, vous avez la certitude d’avoir un job qui vous permet d’atteindre une liberté géographique et financière que vous n’aurez jamais en travaillant pour un patron !",
+      "Pour les chômeurs qui souhaitent trouver un job et atteindre la liberté géographique et financière",
   },
   {
     url: "",
     title:
-      "Pour tous les ENTREPRENEURS et les commerciaux qui souhaitent devenir des vendeurs d’élite",
-    text: "Que vous soyez un manager qui souhaite gravir les échelons ou encore un entrepreneur qui veut vendre plus, le closing est la compétence qu’il vous faut pour booster votre carrière et votre business.",
+      "Pour tous les entrepreneurs et les commerciaux qui souhaitent devenir des vendeurs d’élite et exploser leur chiffre d’affaire",
   },
 ];
 
@@ -38,8 +35,8 @@ const CiblesClosing = () => {
 
       <div className="max-w-7xl mx-auto md:grid md:grid-cols-3 md:px-6 lg:px-8">
         {cibles.map((cible) => (
-          <div className="py-2 px-4 || sm:py-12 sm:px-6 md:flex md:flex-col md:py-10 md:pl-0 md:pr-6 lg:p-6">
-            <blockquote className="mt-6 border p-6 rounded-lg shadow-lg || md:flex-grow md:flex md:flex-col">
+          <div className="py-2 px-4 || sm:py-12 sm:px-6 md:flex md:flex-col items-center md:py-10 md:pl-0 md:pr-6 lg:p-6">
+            <blockquote className="mt-6 border p-6 rounded-lg shadow-lg || md:flex-grow md:flex md:flex-col md:items-center">
               <div className="mb-6 mx-auto">
                 <img
                   className="py-2 m-auto || sm:m-0"
@@ -48,11 +45,8 @@ const CiblesClosing = () => {
                   alt=""
                 />
               </div>
-              <div className="relative text-xl font-medium uppercase text-ef-blue pb-6 text-center || md:flex-grow">
+              <div className="relative text-xl font-medium text-ef-blue pb-6 text-center || md:flex-grow">
                 <h3 className="relative">{cible.title}</h3>
-              </div>
-              <div className="relative text-base font-light text-ef-blue || md:flex-grow">
-                <p className="relative">{cible.text}</p>
               </div>
             </blockquote>
           </div>
@@ -62,8 +56,8 @@ const CiblesClosing = () => {
         <div className="inline-flex rounded-md shadow">
           <HeadShake delay={1000}>
             <Link
-              to="#"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
+              to="/contact"
+              className="inline-flex items-center uppercase justify-center px-5 py-3 text-sm font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
             >
               Parlez-en avec un coach
             </Link>

@@ -60,10 +60,10 @@ const HeaderFormationClosing = () => {
               </div>
               <HeadShake appear={true} delay={1000}>
                 <Link
-                  to="#"
+                  to="/contact"
                   className="w-3/4 m-auto mt-6 flex items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500 || md:w-full md:py-4 md:px-10"
                 >
-                  Réservez votre formation
+                  Réservez votre appel avec un coach
                 </Link>
               </HeadShake>
             </div>

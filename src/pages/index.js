@@ -53,7 +53,7 @@ const IndexPage = () => {
         subtitle="Il est temps de changer de vie"
         title="Entreprenez et rejoignez l'excellence à la française"
         buttonTitle="Parlez à un coach"
-        link=""
+        link="/contact"
       />
       <CentralFooter />
     </main>

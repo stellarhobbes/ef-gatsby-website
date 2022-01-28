@@ -72,8 +72,8 @@ const NumbersClosing = () => {
         <div className="inline-flex rounded-md shadow">
           <HeadShake delay={1000}>
             <Link
-              to="#"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
+              to="/contact"
+              className="inline-flex items-center justify-center uppercase px-5 py-3 text-sm font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
             >
               Votre avenir est ici
             </Link>

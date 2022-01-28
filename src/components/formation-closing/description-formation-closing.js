@@ -5,64 +5,52 @@ import { CheckIcon } from "@heroicons/react/outline";
 const DescriptionClosing = () => {
   return (
     <main className="bg-ef-blue py-36">
-      <div className="max-w-3xl mx-auto text-center pt-8 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
+      <div className="|| mx-auto max-w-3xl px-4 pt-8 pb-0 text-center sm:px-6 lg:px-8 lg:pb-0">
         <Fade top>
-          <h2 className="text-4xl font-extrabold uppercase font-title text-white tracking-tight pb-10 || sm:text-5xl">
+          <h2 className="font-title || pb-10 text-4xl font-extrabold uppercase tracking-tight text-white sm:text-5xl">
             <span className="block">
               Le closing : des perspectives d’avenir infinies…
             </span>
           </h2>
         </Fade>
-        <p className="mt-3 mb-8 max-w-md mx-auto text-base text-white text-justify || sm:text-lg md:mt-5 md:text-xl md:max-w-2xl">
-          Le closing n’en est qu’au début de son ascension. <br />
+        <p className="|| mx-auto mt-3 mb-8 max-w-md text-justify text-base text-white sm:text-lg md:mt-5 md:max-w-2xl md:text-xl">
+          Avec la digitalisation massive des entreprises, le métier de closer
+          est aujourd’hui très recherché. <br />
           <br />
-          En effet, d’après le journaldunet.com, 95% des entreprises françaises
-          déclarent qu’elles continueront à investir dans la transformation
-          digitale en 2021. <br />
-          <br />
-          Et qui dit digitalisation dit développement du closing. Vous avez donc
-          l’opportunité d’être précurseur d’un marché qui a de très beaux jours
-          devant lui. <br />
-          <br />
-          Parce que tant qu’il y aura des entreprises, il y aura besoin de
-          closers, peu importe leur domaine d’activité. Si vous ajoutez à cela
-          la pénurie de closers dans le marché, c’est clairement le meilleur
-          moment pour se lancer. <br />
-          <br />
-          En choisissant le closing, c’est la garantie pour vous d’avoir une
-          activité dans laquelle vous :
+          Vous avez donc l’opportunité d’être précurseur d’un marché qui a de
+          très beaux jours devant lui et dans lequel vous :
         </p>
         <div className="flex">
           <CheckIcon
-            className="h-10 w-10 text-white mr-6 "
+            className="mr-6 h-10 w-10 text-white "
             aria-hidden="true"
           />
-          <p className="mt-0 mb-8 max-w-md mx-auto text-base text-white text-justify || sm:text-lg md:mt-0 md:text-xl md:max-w-2xl">
+          <p className="|| mx-auto mt-0 mb-8 max-w-md text-justify text-base text-white sm:text-lg md:mt-0 md:max-w-2xl md:text-xl">
             Choisissez vos horaires et votre lieu de travail car vous pouvez
             travailler d’où vous voulez.
           </p>
         </div>
         <div className="flex">
           <CheckIcon
-            className="h-10 w-10 text-white mr-6 "
+            className="mr-6 h-10 w-10 text-white "
             aria-hidden="true"
           />
-          <p className="mt-0 mb-8 max-w-md mx-auto text-base text-white text-justify || sm:text-lg md:mt-0 md:text-xl md:max-w-2xl">
+          <p className="|| mx-auto mt-0 mb-8 max-w-md text-justify text-base text-white sm:text-lg md:mt-0 md:max-w-2xl md:text-xl">
             Gagnez très confortablement votre vie car vous maîtrisez une
             compétence très recherchée par de nombreuses entreprises.
           </p>
         </div>
         <div className="flex">
           <CheckIcon
-            className="h-10 w-10 text-white mr-6 "
+            className="mr-6 h-10 w-10 text-white "
             aria-hidden="true"
           />
-          <p className="mt-0 mb-8 max-w-md mx-auto text-base text-white text-justify || sm:text-lg md:mt-0 md:text-xl md:max-w-2xl">
+          <p className="|| mx-auto mt-0 mb-8 max-w-md text-justify text-base text-white sm:text-lg md:mt-0 md:max-w-2xl md:text-xl">
             Choisissez les clients avec qui vous voulez travailler car vous êtes
             en position de force face à la demande importante.
           </p>
         </div>
-        <p className="mt-3 mb-8 max-w-md mx-auto text-base text-white text-justify || sm:text-lg md:mt-5 md:text-xl md:max-w-2xl">
+        <p className="|| mx-auto mt-3 mb-8 max-w-md text-justify text-base text-white sm:text-lg md:mt-5 md:max-w-2xl md:text-xl">
           Tout ça en respectant vos valeurs et vos besoins.
         </p>
       </div>

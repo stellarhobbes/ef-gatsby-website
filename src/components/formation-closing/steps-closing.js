@@ -7,22 +7,22 @@ const steps = [
   {
     number: "01",
     title: "Apprenez des compétences qui changent des vies",
-    text: "Aussi bien la vôtre que celle de vos (futurs) clients ! Les formations de l’entreprenariat Français ont un objectif : développer de nouvelles compétences qui vont vous permettre de pratiquer une activité rémunératrice tout en vous épanouissant. Grâce à une pédagogie adaptée, vous allez découvrir les meilleures méthodes pour réussir dans l’entreprenariat.",
+    text: "Aussi bien la vôtre que celle de vos (futurs) clients ! Grâce à une pédagogie adaptée, vous allez développer de nouvelles compétences qui vous permettront de pratiquer une activité rémunératrice et épanouissante.",
   },
   {
     number: "02",
     title: "Adoptez un nouvel état d’esprit qui vous suit au quotidien",
-    text: "Être entrepreneur, ce n’est pas qu’une question de compétences. C’est également un état d’esprit qui vous suit au quotidien et qui vous permet d’atteindre tous vos objectifs. À la fin de votre formation, vous vous sentirez plus confiant et plus serein. En bref, vous serez une meilleure version de vous même.",
+    text: "Être entrepreneur, c’est avant tout un état d’esprit qui vous suit au quotidien. À la fin de votre formation, vous vous sentirez plus confiant et plus serein. En bref, vous serez une meilleure version de vous même.",
   },
   {
     number: "03",
-    title: "Maitrisez tous les secrets pour réussir l’entrepreneuriat",
-    text: "La France est un pays formidable… mais aussi un véritable mille administratif. Cependant, avec les bonnes méthodes et les bonnes connaissances, vous pouvez tout gérer comme un pro de façon simple et efficace. Et nous vous montrons précisément comment faire dans nos formations.",
+    title: "Maitrisez tous les secrets pour réussir dans l’entrepreneuriat",
+    text: "Devenir Entrepreneur peut vite être le parcours du combattant sans les bons outils. Grâce à nos formations, vous aurez accès aux meilleures méthodes pour tout gérer comme un pro de façon simple et efficace.",
   },
   {
     number: "04",
     title: "Vivez à fond votre nouvelle vie d’entrepreneur",
-    text: "Désormais, vous avez toutes les cartes pour vivre confortablement de votre activité sans subir le stress du manque de client. Mais au-delà de ça, être entrepreneur c’est se construire une vie sur mesure dans laquelle vous êtes libre de gérer votre temps comme vous le désirez, et de profiter de vos proches ou encore partir en vacance dès que vous en avez envie !",
+    text: "Et dites adieu aux contraintes et aux fins de mois difficiles ! Vous serez libre de gérer votre temps comme vous le désirez, de profiter de vos proches ou encore partir en vacance dès que vous en avez envie !",
   },
 ];
 
