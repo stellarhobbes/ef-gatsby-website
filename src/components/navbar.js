@@ -10,6 +10,7 @@ import Slide from "react-reveal/Slide";
 
 const navigation = [
   { name: "Formations Closing", href: "/closing" },
+  { name: "Blog", href: "/blog" }
 ];
 
 const Navbar = () => {

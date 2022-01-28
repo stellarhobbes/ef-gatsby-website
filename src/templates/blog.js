@@ -9,8 +9,14 @@ export const query = graphql`
     contentfulBlogPost(slug: { eq: $slug }) {
       title
       publishedDate(formatString: "MMMM Do, YYYY")
+      headline
       article {
         article
+      }
+      image {
+        file {
+          url
+        }
       }
     }
   }
@@ -21,29 +27,30 @@ const Blog = (props) => {
     <body className="mt-28">
       <Head title={props.data.contentfulBlogPost.title} />
       <Navbar />
-      <div className="relative py-16 bg-white overflow-hidden">
-        <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
-        </div>
+      <div className="relative overflow-hidden bg-white py-16">
+        <div className="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full"></div>
         <div className="relative px-4 sm:px-6 lg:px-8">
-          <div className="text-lg max-w-prose mx-auto">
+          <div className="mx-auto max-w-prose text-lg">
             <p
               id="date"
-              className="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase"
+              className="block text-center text-base font-semibold uppercase tracking-wide text-indigo-600"
             >
               {props.data.contentfulBlogPost.publishedDate}
             </p>
-            <h1 className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <h1 className="mt-2 block text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
               {props.data.contentfulBlogPost.title}
             </h1>
-            <p className="mt-8 text-xl text-gray-500 leading-8">
-              Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem.
-              At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at
-              vitae feugiat egestas ac. Diam nulla orci at in viverra
-              scelerisque eget. Eleifend egestas fringilla sapien.
-            </p>
+            <img
+              className="m-auto mt-10 mb-6"
+              src={props.data.contentfulBlogPost.image.file.url}
+              alt=""
+            />
+            <div className="mx-auto mx-auto mt-16 max-w-prose text-xl font-bold text-ef-blue">
+              <h2>{props.data.contentfulBlogPost.headline}</h2>
+            </div>
           </div>
 
-          <div className="mt-16 text-lg max-w-prose mx-auto text-gray-500 mx-auto">
+          <div className="mx-auto mx-auto mt-16 max-w-prose text-lg text-gray-700">
             <p>{props.data.contentfulBlogPost.article.article}</p>
           </div>
         </div>

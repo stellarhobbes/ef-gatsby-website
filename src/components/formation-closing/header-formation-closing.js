@@ -26,7 +26,7 @@ const HeaderFormationClosing = () => {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/sGOTCCVDLtQ"
+              src="https://player.vimeo.com/video/670779482?h=9119a43fd0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
               title="Nom de la Vidéo"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

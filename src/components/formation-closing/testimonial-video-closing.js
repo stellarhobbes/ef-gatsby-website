@@ -11,11 +11,12 @@ const people = [
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     age: 43,
     parcours:
-      "Ancienne employée dans une agence et nouvelle Community Manager Freelance heureuse",
+      "Ancienne consultante financière",
     stars: " ★ ★ ★ ★ ★",
     message:
       "J'ai directement compris que cette formation pouvait m'aider. Je me sens plus forte et plus confiante.",
-    videosrc: "https://www.youtube.com/embed/sGOTCCVDLtQ",
+    videosrc:
+      "https://www.youtube.com/embed/sX-HlJgCK6w?controls=1&showinfo=0&rel=0",
     videotitle: "Titre de la vidéo",
   },
   {
@@ -24,24 +25,24 @@ const people = [
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     age: 23,
     parcours:
-      "Ancien employé dans une agence et nouveau Community Manager Freelance heureux",
+      "Ancien agent de sécurité",
     stars: " ★ ★ ★ ★ ☆",
     message:
       "Je me sentais emprisonnée, j'avais l'impression de passer à côté de ma vie. Cette formation m'a fourni un vrai contrôle sur ma propre vie.",
-    videosrc: "https://www.youtube.com/embed/L384Cd427yw",
+    videosrc: "https://www.youtube.com/embed/lMcEg0Fwfxo?controls=1&showinfo=0&rel=0",
     videotitle: "Titre de la vidéo",
   },
   {
-    name: "Anne-Sophie",
+    name: "Matthias",
     picture:
       "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80",
     age: 27,
     parcours:
-      "Ancienne employée dans une agence et nouvelle Community Manager Freelance heureuse",
+      "Copywritter",
     stars: " ★ ★ ★ ★ ★",
     message:
       "J'ai vu que oui, c'était possible de vendre sans travestir ma personnalité, sans jouer un rôle.",
-    videosrc: "https://www.youtube.com/embed/AlcsbI9XO08",
+    videosrc: "https://www.youtube.com/embed/0Pc9kaaKCZs?controls=1&showinfo=0&rel=0",
     videotitle: "Titre de la vidéo",
   },
 ];
@@ -49,9 +50,9 @@ const people = [
 const TestimonialVideoClosing = () => {
   return (
     <section className="bg-white pb-20">
-      <div className="max-w-5xl mx-auto text-center pt-6 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
+      <div className="mx-auto max-w-5xl px-4 pt-6 pb-0 text-center sm:px-6 lg:px-8 lg:pb-0">
         <Fade top>
-          <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight || sm:text-4xl">
+          <h2 className="font-title text-ef-blue text-4xl font-extrabold uppercase tracking-tight sm:text-4xl">
             <span className="block">
               Ils ont suivi cette formation et ont changé de vie.
             </span>
@@ -59,36 +60,36 @@ const TestimonialVideoClosing = () => {
         </Fade>
       </div>
 
-      <div className="max-w-7xl mx-auto md:grid md:grid-cols-3 md:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl md:grid md:grid-cols-3 md:px-6 lg:px-8">
         {people.map((person) => (
-          <div className="py-2 px-4 || sm:py-12 sm:px-6 md:flex md:flex-col md:py-10 md:pl-0 md:pr-6 lg:p-6">
-            <blockquote className="mt-6 border p-6 rounded-lg shadow-lg || md:flex-grow md:flex md:flex-col">
+          <div className="py-2 px-4 sm:py-12 sm:px-6 md:flex md:flex-col md:py-10 md:pl-0 md:pr-6 lg:p-6">
+            <blockquote className="mt-6 rounded-lg border p-6 shadow-lg md:flex md:flex-grow md:flex-col">
               <div className="mb-6">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 inline-flex rounded-full border-2 border-ef-blue">
+                  <div className="border-ef-blue inline-flex flex-shrink-0 rounded-full border-2">
                     <img
-                      className="h-12 w-12 object-cover rounded-full"
+                      className="h-12 w-12 rounded-full object-cover"
                       src={person.picture}
                       alt=""
                     />
                   </div>
                   <div className="ml-4">
-                    <div className="text-2xl uppercase font-title font-medium text-ef-blue">
+                    <div className="font-title text-ef-blue text-2xl font-medium uppercase">
                       {person.name + ", " + person.age + " ans"}
                     </div>
-                    <div className="text-sm font-light text-ef-blue">
+                    <div className="text-ef-blue text-sm font-light">
                       {person.parcours}
                     </div>
                   </div>
                 </div>
               </div>
-              <div id="stars" className="flex text-ef-blue pb-2">
+              <div id="stars" className="text-ef-blue flex pb-2">
                 {person.stars}
               </div>
-              <div className="relative text-base font-light text-ef-blue || md:flex-grow">
+              <div className="text-ef-blue || relative text-base font-light md:flex-grow">
                 <p className="relative">{person.message}</p>
               </div>
-              <div className="flex justify-center mt-6">
+              <div className="mt-6 flex justify-center">
                 <iframe
                   width="560"
                   height="215"
@@ -103,7 +104,7 @@ const TestimonialVideoClosing = () => {
           </div>
         ))}
       </div>
-      <p className="mt-3 mb-8 max-w-md mx-auto text-base text-ef-blue flex justify-center || sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+      <p className="text-ef-blue mx-auto mt-3 mb-8 flex max-w-md justify-center text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
         Vous aussi changez de vie avec la formation closing !
       </p>
       <div className="mt-8 flex justify-center">
@@ -111,7 +112,7 @@ const TestimonialVideoClosing = () => {
           <HeadShake delay={1000}>
             <Link
               to="#"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
+              className="bg-ef-blue border-ef-blue hover:text-ef-blue inline-flex items-center justify-center rounded-md border-2 px-5 py-3 text-base font-medium text-white transition duration-500 hover:bg-white"
             >
               Votre formation en ligne
             </Link>
