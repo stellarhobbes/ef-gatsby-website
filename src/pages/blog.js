@@ -50,7 +50,7 @@ const BlogPage = () => {
             {data.allContentfulBlogPost.edges.map((edge) => (
               <div key={edge.node.title}>
                 <Link to={`/blog/${edge.node.slug}`}>
-                <img className="w-4/4 h-3/4 mb-6" src={edge.node.image.file.url} alt="" />
+                <img className="mb-6" src={edge.node.image.file.url} alt="" />
                 <p className="text-base text-ef-blue">
                   <time dateTime={edge.node.publishedDate}>
                     {edge.node.publishedDate}

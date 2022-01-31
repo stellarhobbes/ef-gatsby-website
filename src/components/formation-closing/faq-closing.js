@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import { Disclosure } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/outline";
+import HeadShake from "react-reveal/HeadShake";
 
 import RedLine from "../../images/ef-line-red.png";
 
@@ -90,6 +92,21 @@ const FaqClosing = () => {
               </Disclosure>
             ))}
           </dl>
+        </div>
+      </div>
+      <p className="mt-3 mb-8 max-w-md mx-auto text-center text-base text-ef-blue || sm:text-lg md:mt-2 md:text-xl md:max-w-3xl">
+          Vous avez d'autres questions ?
+        </p>
+      <div className="flex justify-center">
+        <div className="inline-flex rounded-md shadow">
+          <HeadShake delay={1000}>
+            <Link
+              to="/contact"
+              className="inline-flex items-center justify-center uppercase px-5 py-3 text-sm font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || hover:text-ef-blue hover:bg-white transition duration-500"
+            >
+              Réservez votre appel gratuit
+            </Link>
+          </HeadShake>
         </div>
       </div>
     </div>
