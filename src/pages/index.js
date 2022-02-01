@@ -1,63 +1,45 @@
-import * as React from "react";
+import React from "react";
 
-// list of components
-import Comparaison from "../components/comparaison";
 import Navbar from "../components/navbar";
-import Header from "../components/header";
-import CallToAction from "../components/calltoaction";
-import Testimonial from "../components/testimonial";
-import SixSteps from "../components/sixsteps";
-import TestimonialCta from "../components/testimonial-cta";
-import CallToActionSimple from "../components/calltoaction-simple";
-import Video from "../components/video";
 import PreFooter from "../components/prefooter";
-
-// list of assets, images ...
-import DancingEf from "../images/ef-dancing.png";
 import CentralFooter from "../components/footer-central";
 
-const IndexPage = () => {
+import HeaderClosing from "../components/formation-closing/header-formation-closing";
+import ComparaisonClosing from "../components/formation-closing/comparaison-formation-closing";
+import VideoTestimonialClosing from "../components/formation-closing/testimonial-video-closing";
+import DescriptionClosing from "../components/formation-closing/description-formation-closing"
+import InfoClosing from "../components/formation-closing/info-closing";
+import TargetClosing from "../components/formation-closing/cibles-closing";
+import StepsClosing from "../components/formation-closing/steps-closing"
+import ProgramClosing from "../components/formation-closing/program-closing"
+import PourquoiEf from "../components/formation-closing/pourquoi-ef";
+import NumbersClosing from "../components/formation-closing/numbers-closing"
+import FAQClosing from "../components/formation-closing/faq-closing"
+
+const ClosingPage = () => {
   return (
-    <main className="pt-28">
+    <body>
       <Navbar />
-      <Header 
-        title="Créez-vous une vie sur-mesure en devenant entrepreneur"
-        subtitle="Grâce aux formations de l’Entreprenariat Français, développez vos compétences pour lancer une activité rentable - et qui fait sens pour vous - en moins de x semaines."
-        sentence=""
-        buttonTitle="Je veux entrependre et changer de vie"
-      />
-      <Comparaison />
-      <div className="flex justify-center z-10 || md:-mt-52 sm:mt-2">
-        <img
-          className="flex align-item-center w-4/4 -mb-3 || sm:w-3/4 sm:-mb-0"
-          src={DancingEf}
-          alt="entrepreuneurs dansants"
-        />
-      </div>
-      <CallToAction
-        title="Alors l’entreprenariat est fait pour vous !"
-        link=""
-        buttonTitle="Quel entrepreneur se cache en vous ?"
-      />
-      <Testimonial />
-      <SixSteps />
-      <TestimonialCta />
-      <CallToActionSimple
-        title="Retrouvez l’excellence à la française dans des formations prise en charge à 100% par votre CPF"
-        link=""
-        subtitle="Faites le bon choix pour vous et vos proches :"
-        buttonTitle="Trouvez votre formation"
-      />
-      <Video />
+      <HeaderClosing />
+      <ComparaisonClosing />
+      <VideoTestimonialClosing />
+      <DescriptionClosing />
+      <TargetClosing />
+      <StepsClosing />
+      <InfoClosing />
+      <ProgramClosing />
+      <PourquoiEf />
+      <NumbersClosing />
+      <FAQClosing />
       <PreFooter
         subtitle="Il est temps de changer de vie"
-        title="Entreprenez et rejoignez l'excellence à la française"
-        buttonTitle="Parlez à un coach"
+        title="L’entreprenariat Français, votre ticket vers la liberté"
+        buttonTitle="Réservez votre appel avec un coach"
         link="/contact"
       />
       <CentralFooter />
-    </main>
+    </body>
   );
 };
 
-export default IndexPage;
+export default ClosingPage;

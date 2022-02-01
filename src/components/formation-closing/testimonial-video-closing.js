@@ -66,13 +66,15 @@ const TestimonialVideoClosing = () => {
             <blockquote className="mt-6 rounded-lg border p-6 shadow-lg md:flex md:flex-grow md:flex-col">
               <div className="mb-6">
                 <div className="flex items-start">
-                  <div className="border-ef-blue inline-flex flex-shrink-0 rounded-full border-2">
+                  
+                  <div className="border-ef-blue inline-flex flex-shrink-0 rounded-full border-2 hidden">
                     <img
                       className="h-12 w-12 rounded-full object-cover"
                       src={person.picture}
                       alt=""
                     />
                   </div>
+                  
                   <div className="ml-4">
                     <div className="font-title text-ef-blue text-2xl font-medium uppercase">
                       {person.name + ", " + person.age + " ans"}

@@ -10,7 +10,7 @@ import Fade from "react-reveal/Fade";
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allContentfulBlogPost (sort: { fields: publishedDate, order: DESC }){
+      allContentfulBlogPost(sort: { fields: publishedDate, order: DESC }) {
         edges {
           node {
             title
@@ -35,27 +35,28 @@ const BlogPage = () => {
         <Fade top>
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
             <span className="font-title text-ef-blue block uppercase xl:inline">
-              Les articles du blog
+              Du contenu gratuit pour entreprendre
             </span>
           </h1>
         </Fade>
         <p className="text-ef-blue mx-auto mt-3 max-w-md px-10 text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero
-          labore natus atque, ducimus sed.
+          Vous trouverez dans ces articles des ressources gratuites pour vous
+          aider à faire avancer votre projet. L’entrepreneuriat français vous
+          accompagne pas à pas pour vous lancer.
         </p>
       </div>
-      <div className="bg-white px-4 pt-8 pb-20 mb-20 sm:px-6 lg:px-8 lg:pt-8 lg:pb-28">
+      <div className="mb-20 bg-white px-4 pt-8 pb-20 sm:px-6 lg:px-8 lg:pt-8 lg:pb-28">
         <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
           <div className="mt-6 grid gap-16 pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
             {data.allContentfulBlogPost.edges.map((edge) => (
               <div key={edge.node.title}>
                 <Link to={`/blog/${edge.node.slug}`}>
-                <img className="mb-6" src={edge.node.image.file.url} alt="" />
-                <p className="text-base text-ef-blue">
-                  <time dateTime={edge.node.publishedDate}>
-                    {edge.node.publishedDate}
-                  </time>
-                </p>
+                  <img className="mb-6" src={edge.node.image.file.url} alt="" />
+                  <p className="text-ef-blue text-base">
+                    <time dateTime={edge.node.publishedDate}>
+                      {edge.node.publishedDate}
+                    </time>
+                  </p>
                 </Link>
                 <Link to={`/blog/${edge.node.slug}`} className="mt-2 block">
                   <p className="text-ef-blue text-2xl font-bold">

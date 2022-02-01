@@ -9,7 +9,6 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Slide from "react-reveal/Slide";
 
 const navigation = [
-  { name: "Formations Closing", href: "/closing" },
   { name: "Blog", href: "/blog" }
 ];
 
