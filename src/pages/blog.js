@@ -1,9 +1,10 @@
 import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
+import { Helmet } from "react-helmet"
 
 import Navbar from "../components/navbar";
 import PreFooter from "../components/prefooter";
-import Footer from "../components/footer";
+import CentralFooter from "../components/footer-central";
 
 import Fade from "react-reveal/Fade";
 
@@ -30,6 +31,10 @@ const BlogPage = () => {
 
   return (
     <body className="pt-28">
+         <Helmet>
+          <meta charSet="utf-8" />
+          <title>Blog | L'Entrepreneuriat Français</title>
+        </Helmet>
       <Navbar />
       <div className="mx-auto mt-40 text-center">
         <Fade top>
@@ -85,7 +90,7 @@ const BlogPage = () => {
         buttonTitle="Parlez à un coach"
         link=""
       />
-      <Footer />
+      <CentralFooter />
     </body>
   );
 };

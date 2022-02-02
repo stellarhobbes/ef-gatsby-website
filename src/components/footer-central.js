@@ -60,19 +60,22 @@ const Footer = () => {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+      <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="">
           <div className="space-y-8 text-center">
-            <img className="h-16 m-auto" src={LogoEf} alt="Company name" />
+            <Link to="/formations/closing">
+              <img className="m-auto h-16" src={LogoEf} alt="Company name" />
+            </Link>
             <p className="text-ef-blue text-base">
-              Entreprenez, formez-vous grâce à nous et rejoignez l’excellence à la française
+              Entreprenez, formez-vous grâce à nous et rejoignez l’excellence à
+              la française
             </p>
             <div className="flex justify-center">
               {navigation.social.map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-gray-400 hover:text-gray-500 px-2"
+                  className="px-2 text-gray-400 hover:text-gray-500"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -82,7 +85,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8">
-          <p className="text-base text-gray-400 text-center">
+          <p className="text-center text-base text-gray-400">
             &copy; 2022 L'Entrepreneuriat Français. Tous droits réservés.
           </p>
         </div>

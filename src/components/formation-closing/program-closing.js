@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import { Disclosure } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/outline";
@@ -37,15 +36,18 @@ const program = [
   },
   {
     chapter: "Conclure",
-    content: "1. Pitcher avec brio son offre n/ 2. Les 3 trames de ventes les plus efficaces adaptées à chaque produits n/ 3. Le flow ou comment éviter les objections n/ 4. Traiter les objections et libérer les prospects des 3 blocages fondamentaux n/ 5. Rassurer et guider vers le succès",
+    content:
+      "1. Pitcher avec brio son offre n/ 2. Les 3 trames de ventes les plus efficaces adaptées à chaque produits n/ 3. Le flow ou comment éviter les objections n/ 4. Traiter les objections et libérer les prospects des 3 blocages fondamentaux n/ 5. Rassurer et guider vers le succès",
   },
   {
     chapter: "Comptabilité",
-    content: "1. Choisir sa structure juridique n/ 2. Le prévisionnel n/ 3. Le régime social des indépendants n/ 4. Lire et analyser son bilan n/ 5. Lire et analyser son compte de résultat n/ 6. Les rôles de l’expert comptable",
+    content:
+      "1. Choisir sa structure juridique n/ 2. Le prévisionnel n/ 3. Le régime social des indépendants n/ 4. Lire et analyser son bilan n/ 5. Lire et analyser son compte de résultat n/ 6. Les rôles de l’expert comptable",
   },
   {
     chapter: "BONUS",
-    content: "1. Faire des vidéos captivantes sur YouTube n/ 2. Branding : le discours de marque n/ 3. Répondre à un commentaire en public n/ 4. L’expérience client n/ 5. Talent digital : l’outil de prospection multicanal",
+    content:
+      "1. Faire des vidéos captivantes sur YouTube n/ 2. Branding : le discours de marque n/ 3. Répondre à un commentaire en public n/ 4. L’expérience client n/ 5. Talent digital : l’outil de prospection multicanal",
   },
 ];
 
@@ -58,17 +60,17 @@ const ProgramClosing = () => {
     <div className="bg-white">
       <div
         id="blueline"
-        className="flex justify-center z-10 || md:mb-10 sm:mt-6"
+        className="|| z-10 flex justify-center sm:mt-6 md:mb-10"
       >
         <img
-          className="flex align-item-center w-4/4"
+          className="align-item-center w-4/4 flex"
           src={RedLine}
           alt="ligne séparation rouge"
         />
       </div>
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:py-6 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200 pb-20 ">
-          <h2 className="text-center text-3xl font-extrabold font-title pb-10 uppercase text-ef-blue sm:text-4xl">
+      <div className="mx-auto max-w-7xl py-12 px-4 sm:py-6 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl divide-y-2 divide-gray-200 pb-20 ">
+          <h2 className="font-title text-ef-blue pb-10 text-center text-3xl font-extrabold uppercase sm:text-4xl">
             Le programme complet de la formation sur le closing
           </h2>
           <dl className="mt-6 space-y-6 divide-y divide-gray-200">
@@ -77,11 +79,11 @@ const ProgramClosing = () => {
                 {({ open }) => (
                   <>
                     <dt className="text-lg">
-                      <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
+                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-400">
                         <h3 className="font-medium text-gray-900">
                           {program.chapter}
                         </h3>
-                        <span className="ml-6 h-7 flex items-center">
+                        <span className="ml-6 flex h-7 items-center">
                           <ChevronDownIcon
                             className={classNames(
                               open ? "-rotate-180" : "rotate-0",
@@ -93,7 +95,7 @@ const ProgramClosing = () => {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-ef-blue">
+                      <p className="text-ef-blue text-base">
                         {program.content.split("n/").map((str) => (
                           <p>{str}</p>
                         ))}
@@ -107,31 +109,27 @@ const ProgramClosing = () => {
         </div>
         <div id="double-logo" className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md">
-            <Link to="/">
-              <img
-                className="h-16 w-auto"
-                src={LogoQualiopi}
-                alt="logo entrepreneuriat français"
-              />
-            </Link>
+            <img
+              className="h-16 w-auto"
+              src={LogoQualiopi}
+              alt="logo entrepreneuriat français"
+            />
           </div>
           <div className="ml-3 inline-flex">
-            <Link to="/">
-              <img
-                className="h-16 w-auto"
-                src={LogoCompteFormation}
-                alt="logo entrepreneuriat français"
-              />
-            </Link>
+            <img
+              className="h-16 w-auto"
+              src={LogoCompteFormation}
+              alt="logo entrepreneuriat français"
+            />
           </div>
         </div>
       </div>
       <div
         id="redline"
-        className="flex justify-center z-10 || md:mt-20 sm:mt-6"
+        className="|| z-10 flex justify-center sm:mt-6 md:mt-20"
       >
         <img
-          className="flex align-item-center w-4/4"
+          className="align-item-center w-4/4 flex"
           src={BlueLine}
           alt="ligne séparation bleue"
         />

@@ -1,6 +1,6 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 const path = require(`path`);
 
@@ -17,17 +17,23 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-contentful',
+      resolve: "gatsby-source-contentful",
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
-      }
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
     },
-    'gatsby-plugin-postcss',
-    'gatsby-plugin-react-helmet',
-    '@contentful/rich-text-react-renderer',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/favicon.png`,
+      },
+    },
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-react-helmet",
+    "@contentful/rich-text-react-renderer",
     "gatsby-plugin-image",
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
   ],
 };

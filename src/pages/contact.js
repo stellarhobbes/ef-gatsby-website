@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import Navbar from "../components/navbar";
 import PreFooter from "../components/prefooter";
-import Footer from "../components/footer";
+import CentralFooter from "../components/footer-central";
 
 const ContactPage = () => {
   useEffect(() => {
@@ -16,6 +17,10 @@ const ContactPage = () => {
   }, []);
   return (
     <main>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact | L'Entrepreneuriat Français</title>
+      </Helmet>
       <Navbar />
       <div className="mb-48"></div>
       <div class="_form_14"></div>
@@ -29,9 +34,9 @@ const ContactPage = () => {
         subtitle="Il est temps de changer de vie"
         title="Entreprenez et rejoignez l'excellence à la française"
         buttonTitle="Parlez à un coach"
-        link=""
+        link="/contact"
       />
-      <Footer />
+      <CentralFooter />
     </main>
   );
 };

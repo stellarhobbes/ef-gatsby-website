@@ -9,7 +9,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Slide from "react-reveal/Slide";
 
 const navigation = [
-  { name: "Blog", href: "/blog" }
+  { name: "Blog", href: "/blog" },
 ];
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <Link to="/">
+                    <Link to="/formations/closing">
                       <img
                         className="h-16 w-auto"
                         src={LogoEf}
