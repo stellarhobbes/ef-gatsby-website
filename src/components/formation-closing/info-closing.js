@@ -28,7 +28,7 @@ const informations = [
   {
     id: 4,
     title:
-      "Atteindre la liberté géographique et financière qui vous permet de mener à bien tous vos projets",
+      "Atteindre la liberté géographique et financière qui vous permet de mener à bien tous vos projets.",
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const informations = [
 
 const InfoClosing = () => {
   return (
-    <div className="|| mt-8 pb-12 sm:mt-12 sm:pb-16 lg:mt-10 lg:pb-24">
+    <div className="px-10 mt-8 pb-12 sm:px-0 sm:mt-12 sm:pb-16 lg:mt-10 lg:pb-24">
       <div className="|| relative sm:mt-2 md:mt-6">
         <div className="|| flex justify-center sm:mb-2 md:mb-6">
           <img
@@ -48,7 +48,7 @@ const InfoClosing = () => {
             alt="double flèches vers le bas"
           />
         </div>
-        <h2 className="font-title text-ef-blue || mx-auto mb-10 w-2/4 text-center text-4xl font-extrabold uppercase tracking-tight text-gray-900 sm:text-4xl">
+        <h2 className="font-title text-ef-blue || mx-auto mb-10 w-4/4 text-center text-4xl font-extrabold uppercase tracking-tight text-gray-900 sm:text-4xl">
           <span className="block">
             A la fin de votre formation, vous aurez toutes les cartes en main
             pour …
@@ -70,7 +70,7 @@ const InfoClosing = () => {
                           />
                         </div>
                         <div>
-                          <h3 className="text-ef-blue ml-3 mb-2 text-lg font-medium">
+                          <h3 className="text-ef-blue ml-3 mb-2 text-base font-normal font-medium">
                             {information.title}
                           </h3>
                           <p className="text-ef-blue ml-3 text-sm font-light">

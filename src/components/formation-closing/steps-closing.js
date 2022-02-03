@@ -28,8 +28,8 @@ const steps = [
 
 const StepsClosing = () => {
   return (
-    <section className="bg-white py-20">
-      <div className="max-w-5xl mx-auto text-center pt-6 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
+    <section className="px-10 bg-white py-10 sm:px-0">
+      <div className="max-w-5xl mx-auto text-center pt-2 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
         <Fade top>
           <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">
             <span className="block">
@@ -43,7 +43,7 @@ const StepsClosing = () => {
             l’épanouissement professionnel et personnel. Mais nous savons aussi
             qu’il peut être difficile de se lancer en partant de zéro.
           </span>{" "}
-          Voilà pourquoi, avec l’Entreprenariat Français, vous n’êtes plus seul
+          Voilà pourquoi, avec l’Entrepreneuriat Français, vous n’êtes plus seul
           : nous vous accompagnons tout au long de votre projet.
         </p>
       </div>

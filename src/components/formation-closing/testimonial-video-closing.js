@@ -28,7 +28,7 @@ const people = [
       "Ancien agent de sécurité",
     stars: " ★ ★ ★ ★ ☆",
     message:
-      "Je me sentais emprisonnée, j'avais l'impression de passer à côté de ma vie. Cette formation m'a fourni un vrai contrôle sur ma propre vie.",
+      "Je me sentais emprisonné, j'avais l'impression de passer à côté de ma vie. Cette formation m'a fourni un vrai contrôle sur ma propre vie.",
     videosrc: "https://www.youtube.com/embed/lMcEg0Fwfxo?controls=1&showinfo=0&rel=0",
     videotitle: "Titre de la vidéo",
   },
@@ -49,7 +49,7 @@ const people = [
 
 const TestimonialVideoClosing = () => {
   return (
-    <section className="bg-white pb-20">
+    <section className="px-10 bg-white pb-20 sm:px-0">
       <div className="mx-auto max-w-5xl px-4 pt-6 pb-0 text-center sm:px-6 lg:px-8 lg:pb-0">
         <Fade top>
           <h2 className="font-title text-ef-blue text-4xl font-extrabold uppercase tracking-tight sm:text-4xl">
@@ -75,7 +75,7 @@ const TestimonialVideoClosing = () => {
                     />
                   </div>
                   
-                  <div className="ml-4">
+                  <div className="">
                     <div className="font-title text-ef-blue text-2xl font-medium uppercase">
                       {person.name + ", " + person.age + " ans"}
                     </div>

@@ -24,7 +24,7 @@ const cibles = [
 
 const CiblesClosing = () => {
   return (
-    <section className="bg-white py-20">
+    <section className="px-10 bg-white py-12 sm:px-0">
       <div className="max-w-5xl mx-auto text-center pt-6 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
         <Fade top>
           <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">

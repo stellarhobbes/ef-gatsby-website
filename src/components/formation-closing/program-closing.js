@@ -27,7 +27,7 @@ const program = [
   {
     chapter: "Bloc 2 : La fenêtre d’attention (Opening)",
     content:
-      "1. Définition de la fenêtre d’attention n/ 2. Les 3 premières secondes, les 3 premiers mots, les trois premières respirations n/ 3. L’art de se présenter n/ 4. Comment éviter de rentrer directement en description de l’offre n/ 5. Se synchroniser avec la PNL et préparer un terrain propice à la confiance n/ 6. Amenez votre interlocuteur à parler de lui.",
+      "1. Définition de la fenêtre d’attention n/ 2. Les 3 premières secondes, les 3 premiers mots, les 3 premières respirations n/ 3. L’art de se présenter n/ 4. Comment éviter de rentrer directement en description de l’offre n/ 5. Se synchroniser avec la PNL et préparer un terrain propice à la confiance n/ 6. Amenez votre interlocuteur à parler de lui.",
   },
   {
     chapter: "Bloc 3 : Le coaching décisionnel",
@@ -57,7 +57,7 @@ function classNames(...classes) {
 
 const ProgramClosing = () => {
   return (
-    <div className="bg-white">
+    <div className="px-10 bg-white sm:px-0">
       <div
         id="blueline"
         className="|| z-10 flex justify-center sm:mt-6 md:mb-10"
@@ -69,7 +69,7 @@ const ProgramClosing = () => {
         />
       </div>
       <div className="mx-auto max-w-7xl py-12 px-4 sm:py-6 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl divide-y-2 divide-gray-200 pb-20 ">
+        <div className="mx-auto max-w-3xl divide-y-2 divide-gray-200 pb-10 ">
           <h2 className="font-title text-ef-blue pb-10 text-center text-3xl font-extrabold uppercase sm:text-4xl">
             Le programme complet de la formation sur le closing
           </h2>
@@ -107,7 +107,7 @@ const ProgramClosing = () => {
             ))}
           </dl>
         </div>
-        <div id="double-logo" className="mt-8 flex justify-center">
+        <div id="double-logo" className="flex justify-center">
           <div className="inline-flex rounded-md">
             <img
               className="h-16 w-auto"

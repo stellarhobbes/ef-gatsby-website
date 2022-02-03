@@ -42,7 +42,7 @@ const positiveFeatures = [
   {
     id: 1,
     featureName:
-      "D’être libre de travailler depuis chez vous et de gérer votre emploi comme vous le désirez, afin d’avoir plus de temps pour profiter de vos proches.",
+      "D’être libre de travailler depuis chez vous et de gérer votre emploi du temps comme vous le désirez, afin d’avoir plus de temps pour profiter de vos proches.",
   },
   {
     id: 2,
@@ -58,7 +58,7 @@ const positiveFeatures = [
 
 const ComparaisonFormation = () => {
   return (
-    <div className="mt-8 pb-12 || sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+    <div className="px-10 mt-8 pb-12 || sm:px-0 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
       <div
         id="blueline"
         className="flex justify-center z-10 || md:mb-20 sm:mt-6"
@@ -91,7 +91,7 @@ const ComparaisonFormation = () => {
               <Fade left delay={200}>
                 <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div className="px-6 py-8 bg-white || sm:p-10 sm:pb-6">
-                    <h3 className="mt-4 flex items-baseline justify-center text-3xl font-extrabold font-title uppercase text-ef-blue">
+                    <h3 className="mt-4 items-baseline justify-center text-center text-3xl font-extrabold font-title uppercase text-ef-blue">
                       {negative.title}
                     </h3>
                   </div>
@@ -125,7 +125,7 @@ const ComparaisonFormation = () => {
               <Fade right delay={200}>
                 <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div className="px-6 py-8 bg-white || sm:p-10 sm:pb-6">
-                    <h3 className="mt-4 flex items-baseline justify-center text-3xl font-extrabold font-title uppercase text-ef-blue">
+                    <h3 className="mt-4 items-baseline justify-center text-center text-3xl font-extrabold font-title uppercase text-ef-blue">
                       {positive.title}
                     </h3>
                   </div>
@@ -166,7 +166,7 @@ const ComparaisonFormation = () => {
           <HeadShake appear={true} delay={1000}>
             <Link
               to="/contact"
-              className="w-3/4 m-auto mt-6 mb-10 flex items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || sm:w-1/3 hover:text-ef-blue hover:bg-white transition duration-500 || md:py-4 md:px-10"
+              className="w-3/4 m-auto mt-6 mb-10 flex text-center items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || sm:w-1/3 hover:text-ef-blue hover:bg-white transition duration-500 || md:py-4 md:px-10"
             >
               Devenez entrepreneur dès aujourd'hui
             </Link>

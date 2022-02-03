@@ -4,8 +4,8 @@ import { CheckIcon } from "@heroicons/react/outline";
 
 const DescriptionClosing = () => {
   return (
-    <main className="bg-ef-blue py-36">
-      <div className="|| mx-auto max-w-3xl px-4 pt-8 pb-0 text-center sm:px-6 lg:px-8 lg:pb-0">
+    <main className="px-10 bg-ef-blue py-20 sm:px-0">
+      <div className="mx-auto max-w-3xl px-4 pt-8 pb-0 text-center sm:px-6 lg:px-8 lg:pb-0">
         <Fade top>
           <h2 className="font-title || pb-10 text-4xl font-extrabold uppercase tracking-tight text-white sm:text-5xl">
             <span className="block">

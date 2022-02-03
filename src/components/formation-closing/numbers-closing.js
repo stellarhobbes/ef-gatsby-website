@@ -6,7 +6,7 @@ import PeopleMosaic from "../../images/people-mosaic.png";
 
 const NumbersClosing = () => {
   return (
-    <div className="bg-white pt-12 sm:pt-16">
+    <div className="px-10 bg-white pt-12 sm:pt-16 sm:px-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue sm:text-4xl">
@@ -68,7 +68,7 @@ const NumbersClosing = () => {
             alt="illustration montagnes entrepreuneuriat français"
           />
         </div>
-      <div className="mt-8 flex justify-center">
+      <div className="mb-10 flex justify-center">
         <div className="inline-flex rounded-md shadow">
           <HeadShake delay={1000}>
             <Link

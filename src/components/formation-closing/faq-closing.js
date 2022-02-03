@@ -47,7 +47,7 @@ function classNames(...classes) {
 
 const FaqClosing = () => {
   return (
-    <div className="bg-white pb-20">
+    <div className="px-16 bg-white pb-10 sm:px-0">
       <div
         id="blueline"
         className="flex justify-center z-10 || md:mb-10 sm:mt-6"
@@ -58,8 +58,8 @@ const FaqClosing = () => {
           alt="ligne séparation rouge"
         />
       </div>
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:py-6 sm:px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto divide-y-2 divide-gray-200 pb-20 ">
+      <div className="max-w-7xl mx-auto pt-12 sm:py-6 sm:px-6 lg:px-8">
+        <div className="max-w-2xl mx-auto divide-y-2 divide-gray-200 pb-10 ">
           <h2 className="text-center text-3xl font-extrabold font-title pb-10 uppercase text-ef-blue sm:text-4xl">
             Nous répondons à toutes vos questions.
           </h2>
@@ -94,7 +94,7 @@ const FaqClosing = () => {
           </dl>
         </div>
       </div>
-      <p className="mt-3 mb-8 max-w-md mx-auto text-center text-base text-ef-blue || sm:text-lg md:mt-2 md:text-xl md:max-w-3xl">
+      <p className="mb-8 max-w-md mx-auto text-center text-base text-ef-blue || sm:text-lg md:mt-2 md:text-xl md:max-w-3xl">
           Vous avez d'autres questions ?
         </p>
       <div className="flex justify-center">
