@@ -39,7 +39,7 @@ const informations = [
 
 const InfoClosing = () => {
   return (
-    <div className="mt-8 px-6 pb-12 sm:mt-12 sm:px-0 sm:pb-16 lg:mt-10 lg:pb-24">
+    <div className="mt-8 px-6 pb-12 sm:mt-12 sm:px-0 sm:pb-8 lg:mt-10 lg:pb-8">
       <div className="|| relative sm:mt-2 md:mt-6">
         <div className="|| flex justify-center sm:mb-2 md:mb-6">
           <img

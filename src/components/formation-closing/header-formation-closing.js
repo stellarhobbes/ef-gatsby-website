@@ -22,7 +22,7 @@ const HeaderFormationClosing = () => {
             Créez le job de vos rêves en devenant closer et vivez
             confortablement d’une activité qui fait sens pour vous.
           </p>
-          <div className="mt-0 mb-0 flex justify-center sm:mt-6">
+          <div className="-mt-8 -mb-8 flex justify-center sm:mt-8 sm:mb-2">
             <iframe
               width="560"
               height="315"
