@@ -58,7 +58,7 @@ const positiveFeatures = [
 
 const ComparaisonFormation = () => {
   return (
-    <div className="px-10 mt-8 pb-12 || sm:px-0 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+    <div className="px-6 mt-8 pb-12 || sm:px-0 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
       <div
         id="blueline"
         className="flex justify-center z-10 || md:mb-20 sm:mt-6"

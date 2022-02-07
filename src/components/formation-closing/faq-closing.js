@@ -47,7 +47,7 @@ function classNames(...classes) {
 
 const FaqClosing = () => {
   return (
-    <div className="px-16 bg-white pb-10 sm:px-0">
+    <div className="px-10 bg-white pb-10 sm:px-0">
       <div
         id="blueline"
         className="flex justify-center z-10 || md:mb-10 sm:mt-6"

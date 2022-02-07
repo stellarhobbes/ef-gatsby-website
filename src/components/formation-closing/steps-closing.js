@@ -28,7 +28,7 @@ const steps = [
 
 const StepsClosing = () => {
   return (
-    <section className="px-10 bg-white py-10 sm:px-0">
+    <section className="px-6 bg-white py-6 sm:px-0">
       <div className="max-w-5xl mx-auto text-center pt-2 pb-0 px-4 || sm:px-6 lg:pb-0 lg:px-8">
         <Fade top>
           <h2 className="text-4xl font-extrabold uppercase font-title text-ef-blue tracking-tight text-gray-900 || sm:text-4xl">
@@ -49,7 +49,7 @@ const StepsClosing = () => {
       </div>
       <Fade>
       <img
-        className="py-2 px-10 || md:px-0 md:mx-auto md:block"
+        className="py-2 px-6 || md:px-0 md:mx-auto md:block"
         width={850}
         src={PathToFlag}
         alt=""

@@ -39,7 +39,7 @@ const informations = [
 
 const InfoClosing = () => {
   return (
-    <div className="px-10 mt-8 pb-12 sm:px-0 sm:mt-12 sm:pb-16 lg:mt-10 lg:pb-24">
+    <div className="mt-8 px-6 pb-12 sm:mt-12 sm:px-0 sm:pb-16 lg:mt-10 lg:pb-24">
       <div className="|| relative sm:mt-2 md:mt-6">
         <div className="|| flex justify-center sm:mb-2 md:mb-6">
           <img
@@ -48,9 +48,9 @@ const InfoClosing = () => {
             alt="double flèches vers le bas"
           />
         </div>
-        <h2 className="font-title text-ef-blue || mx-auto mb-10 w-4/4 text-center text-4xl font-extrabold uppercase tracking-tight text-gray-900 sm:text-4xl">
+        <h2 className="font-title text-ef-blue || w-4/4 mx-auto mb-10 text-center text-4xl font-extrabold uppercase tracking-tight text-gray-900 sm:text-4xl">
           <span className="block">
-            A la fin de votre formation, vous aurez toutes les cartes en main
+            À la fin de votre formation, vous aurez toutes les cartes en main
             pour …
           </span>
         </h2>
@@ -83,17 +83,20 @@ const InfoClosing = () => {
                 </div>
               </div>
             </Fade>
-            <div id="double-logo" className="mt-16 flex justify-center">
+            <div
+              id="double-logo"
+              className="flex justify-center flex-col items-center md:flex-row"
+            >
               <div className="inline-flex rounded-md">
                 <img
-                  className="h-16 w-auto"
+                  className="h-16"
                   src={LogoQualiopi}
                   alt="logo entrepreneuriat français"
                 />
               </div>
               <div className="ml-3 inline-flex">
                 <img
-                  className="h-16 w-auto"
+                  className="h-16"
                   src={LogoCompteFormation}
                   alt="logo entrepreneuriat français"
                 />

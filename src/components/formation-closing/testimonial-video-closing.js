@@ -49,8 +49,8 @@ const people = [
 
 const TestimonialVideoClosing = () => {
   return (
-    <section className="px-10 bg-white pb-20 sm:px-0">
-      <div className="mx-auto max-w-5xl px-4 pt-6 pb-0 text-center sm:px-6 lg:px-8 lg:pb-0">
+    <section className="px-6 bg-white pb-10 sm:px-0">
+      <div className="mx-auto max-w-5xl px-4 pt-2 pb-0 text-center sm:px-6 lg:px-8 lg:pb-0">
         <Fade top>
           <h2 className="font-title text-ef-blue text-4xl font-extrabold uppercase tracking-tight sm:text-4xl">
             <span className="block">

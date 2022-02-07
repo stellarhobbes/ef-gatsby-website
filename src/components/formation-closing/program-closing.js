@@ -57,7 +57,7 @@ function classNames(...classes) {
 
 const ProgramClosing = () => {
   return (
-    <div className="px-10 bg-white sm:px-0">
+    <div className="bg-white px-6 sm:px-0">
       <div
         id="blueline"
         className="|| z-10 flex justify-center sm:mt-6 md:mb-10"
@@ -107,17 +107,20 @@ const ProgramClosing = () => {
             ))}
           </dl>
         </div>
-        <div id="double-logo" className="flex justify-center">
+        <div
+          id="double-logo"
+          className="flex flex-col items-center justify-center md:flex-row"
+        >
           <div className="inline-flex rounded-md">
             <img
-              className="h-16 w-auto"
+              className="h-16"
               src={LogoQualiopi}
               alt="logo entrepreneuriat français"
             />
           </div>
           <div className="ml-3 inline-flex">
             <img
-              className="h-16 w-auto"
+              className="h-16"
               src={LogoCompteFormation}
               alt="logo entrepreneuriat français"
             />

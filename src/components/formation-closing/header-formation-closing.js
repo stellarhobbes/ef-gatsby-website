@@ -9,20 +9,20 @@ import HeadShake from "react-reveal/HeadShake";
 const HeaderFormationClosing = () => {
   return (
     <div className="relative overflow-hidden">
-      <main className="|| mx-auto mt-48 max-w-7xl px-0 sm:mt-36 sm:pt-0 md:pt-16">
+      <main className="|| mx-auto mt-36 max-w-7xl px-0 sm:mt-36 sm:pt-0 md:pt-16">
         <div className="text-center">
           <Fade top>
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
               <span className="font-title text-ef-blue block uppercase xl:inline">
-                Formation closing <br/> (ou vente éthique)
+                Formation closing <br /> (ou vente éthique)
               </span>
             </h1>
           </Fade>
-          <p className="text-ef-blue mx-auto mt-3 max-w-md px-10 text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
+          <p className="text-ef-blue mx-auto mt-3 max-w-md text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
             Créez le job de vos rêves en devenant closer et vivez
             confortablement d’une activité qui fait sens pour vous.
           </p>
-          <div className="mt-10 flex justify-center">
+          <div className="mt-2 flex justify-center sm:mt-6">
             <iframe
               width="560"
               height="315"
@@ -33,36 +33,39 @@ const HeaderFormationClosing = () => {
               allowfullscreen
             ></iframe>
           </div>
+          <HeadShake appear={true} delay={1000}>
+            <Link
+              to="/contact"
+              className="bg-ef-blue border-ef-blue || hover:text-ef-blue || m-auto mt-6 flex w-3/4 items-center justify-center rounded-md border-2 px-8 py-3 text-sm font-medium uppercase text-white transition duration-500 hover:bg-white md:w-2/4 md:py-4 md:px-10"
+            >
+              Réservez votre appel avec un coach
+            </Link>
+          </HeadShake>
           <h2 className="text-ef-blue mx-auto mt-8 max-w-md px-10 text-xl font-bold uppercase sm:text-lg md:mt-10 md:max-w-3xl md:text-3xl">
             Vous avez la possibilité de faire financer votre formation à 100%
             par l’Etat…
           </h2>
           <div className="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8">
             <div className="rounded-md">
-              <div id="double-logo" className="flex justify-center">
+              <div
+                id="double-logo"
+                className="flex flex-col items-center justify-center md:flex-row"
+              >
                 <div className="inline-flex rounded-md">
                   <img
-                    className="h-16 w-auto"
+                    className="h-16"
                     src={LogoQualiopi}
                     alt="logo entrepreneuriat français"
                   />
                 </div>
                 <div className="ml-3 inline-flex">
                   <img
-                    className="h-16 w-auto"
+                    className="h-16"
                     src={LogoCompteFormation}
                     alt="logo entrepreneuriat français"
                   />
                 </div>
               </div>
-              <HeadShake appear={true} delay={1000}>
-                <Link
-                  to="/contact"
-                  className="bg-ef-blue border-ef-blue || hover:text-ef-blue || m-auto mt-6 flex w-3/4 items-center justify-center rounded-md border-2 px-8 py-3 text-sm font-medium uppercase text-white transition duration-500 hover:bg-white md:w-full md:py-4 md:px-10"
-                >
-                  Réservez votre appel avec un coach
-                </Link>
-              </HeadShake>
             </div>
           </div>
         </div>
