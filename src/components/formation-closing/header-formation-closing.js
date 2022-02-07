@@ -8,8 +8,8 @@ import HeadShake from "react-reveal/HeadShake";
 
 const HeaderFormationClosing = () => {
   return (
-    <div className="relative overflow-hidden">
-      <main className="|| mx-auto mt-36 max-w-7xl px-0 sm:mt-36 sm:pt-0 md:pt-16">
+    <div className="relative overflow-hidden px-6 sm:px-O">
+      <main className="|| mx-auto mt-40 max-w-7xl px-0 sm:mt-36 sm:pt-0 md:pt-16">
         <div className="text-center">
           <Fade top>
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
@@ -22,7 +22,7 @@ const HeaderFormationClosing = () => {
             Créez le job de vos rêves en devenant closer et vivez
             confortablement d’une activité qui fait sens pour vous.
           </p>
-          <div className="mt-2 flex justify-center sm:mt-6">
+          <div className="mt-0 mb-0 flex justify-center sm:mt-6">
             <iframe
               width="560"
               height="315"
@@ -33,14 +33,16 @@ const HeaderFormationClosing = () => {
               allowfullscreen
             ></iframe>
           </div>
+          <div className="max-w-7xl">
           <HeadShake appear={true} delay={1000}>
             <Link
               to="/contact"
-              className="bg-ef-blue border-ef-blue || hover:text-ef-blue || m-auto mt-6 flex w-3/4 items-center justify-center rounded-md border-2 px-8 py-3 text-sm font-medium uppercase text-white transition duration-500 hover:bg-white md:w-2/4 md:py-4 md:px-10"
+              className="w-4/4 m-auto mt-6 mb-10 flex text-center items-center justify-center px-8 py-3 text-sm uppercase font-medium rounded-md bg-ef-blue text-white border-2 border-ef-blue || sm:w-1/3 hover:text-ef-blue hover:bg-white transition duration-500 || md:py-4 md:px-10"
             >
               Réservez votre appel avec un coach
             </Link>
           </HeadShake>
+          </div>
           <h2 className="text-ef-blue mx-auto mt-8 max-w-md px-10 text-xl font-bold uppercase sm:text-lg md:mt-10 md:max-w-3xl md:text-3xl">
             Vous avez la possibilité de faire financer votre formation à 100%
             par l’Etat…
