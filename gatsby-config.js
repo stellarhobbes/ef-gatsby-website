@@ -11,6 +11,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "5179424268750774",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: path.join(__dirname, `src`, `images`),

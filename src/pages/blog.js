@@ -28,7 +28,11 @@ const BlogPage = () => {
       }
     }
   `);
-
+  if (typeof window !== "undefined") {
+    if (window.fbq != null) {
+      window.fbq("track", "PageView");
+    }
+  }
   return (
     <body className="pt-28">
          <Helmet>

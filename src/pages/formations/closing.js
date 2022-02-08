@@ -18,6 +18,11 @@ import NumbersClosing from "../../components/formation-closing/numbers-closing";
 import FAQClosing from "../../components/formation-closing/faq-closing";
 
 const ClosingPage = () => {
+  if (typeof window !== "undefined") {
+    if (window.fbq != null) {
+      window.fbq("track", "PageView");
+    }
+  }
   return (
     <body>
       <Helmet>

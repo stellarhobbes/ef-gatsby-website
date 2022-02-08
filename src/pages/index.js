@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet";
 
 // list of components
 import Comparaison from "../components/comparaison";
@@ -18,23 +18,28 @@ import DancingEf from "../images/ef-dancing.png";
 import CentralFooter from "../components/footer-central";
 
 const IndexPage = () => {
+  if (typeof window !== "undefined") {
+    if (window.fbq != null) {
+      window.fbq("track", "PageView");
+    }
+  }
   return (
     <main className="pt-28">
-       <Helmet>
-          <meta charSet="utf-8" />
-          <title>L'Entrepreneuriat Français</title>
-        </Helmet>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>L'Entrepreneuriat Français</title>
+      </Helmet>
       <Navbar />
-      <Header 
+      <Header
         title="Créez-vous une vie sur-mesure en devenant entrepreneur"
         subtitle="Grâce aux formations de l’Entrepreneuriat Français, développez vos compétences pour lancer une activité rentable - et qui fait sens pour vous - à votre rythme."
         sentence=""
         buttonTitle="Je veux entrependre et changer de vie"
       />
       <Comparaison />
-      <div className="flex justify-center z-10 || md:-mt-52 sm:mt-2">
+      <div className="|| z-10 flex justify-center sm:mt-2 md:-mt-52">
         <img
-          className="flex align-item-center w-4/4 -mb-3 || sm:w-3/4 sm:-mb-0"
+          className="align-item-center w-4/4 || -mb-3 flex sm:-mb-0 sm:w-3/4"
           src={DancingEf}
           alt="entrepreuneurs dansants"
         />

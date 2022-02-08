@@ -18,6 +18,11 @@ const ContactPage = () => {
       script.remove();
     };
   }, []);
+  if (typeof window !== "undefined") {
+    if (window.fbq != null) {
+      window.fbq("track", "PageView");
+    }
+  }
   return (
     <main>
       <Helmet>

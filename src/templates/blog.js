@@ -26,6 +26,11 @@ export const query = graphql`
 `;
 
 const Blog = (props) => {
+  if (typeof window !== "undefined") {
+    if (window.fbq != null) {
+      window.fbq("track", "PageView");
+    }
+  }
   return (
     <body className="mt-28">
       <Helmet>
