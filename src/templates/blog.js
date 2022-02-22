@@ -38,7 +38,7 @@ const Blog = (props) => {
     <body className="mt-28">
       <Helmet>
         <title>
-          {props.data.contentfulBlogPost.title + "- L'entrepreneuriat Français"}
+          {props.data.contentfulBlogPost.title + " - L'entrepreneuriat Français"}
         </title>
         <meta name="title" content={props.data.contentfulBlogPost.title}></meta>
         <meta

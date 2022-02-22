@@ -1,23 +1,15 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 
 import RedLine from "../images/ef-line-red.png";
 import LogoQualiopi from "../images/logo-qualiopi.png";
 import LogoCompteFormation from "../images/logo-moncompteformation.png";
+import HubspotContactForm from "../components/hubspot";
 
 import Navbar from "../components/navbar";
 import CentralFooter from "../components/footer-central";
 
 const ContactPage = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src =
-      "https://sebastienratppro32825.activehosted.com/f/embed.php?id=14";
-    document.head.appendChild(script);
-    return () => {
-      script.remove();
-    };
-  }, []);
   if (typeof window !== "undefined") {
     if (window.fbq != null) {
       window.fbq("track", "PageView");
@@ -31,13 +23,10 @@ const ContactPage = () => {
       </Helmet>
       <Navbar />
       <div className="mb-48"></div>
-      <div class="_form_14"></div>
-      <script
-        src="https://sebastienratppro32825.activehosted.com/f/embed.php?id=14"
-        type="text/javascript"
-        charset="utf-8"
-      ></script>
-      <div className="mt-40"></div>
+      <div className="w-2/4 mx-auto text-center mt-40 mb-24">
+        <h1 className="text-4xl tracking-tight block font-title uppercase text-ef-blue xl:inline font-extrabold text-gray-900 sm:text-5xl md:text-6xl">Formation Créer et développer votre entreprise de closing</h1>
+      </div>
+      <HubspotContactForm />
       <div id="double-logo" className="flex justify-center">
         <div className="inline-flex rounded-md">
           <img
