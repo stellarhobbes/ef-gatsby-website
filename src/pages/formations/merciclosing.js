@@ -51,17 +51,22 @@ const people = [
 ];
 
 const ThanksClosing = () => {
+  if (typeof window !== "undefined") {
+    if (window.fbq != null) {
+      window.fbq("track", "Lead");
+    }
+  }
   return (
     <main>
       <Navbar />
-      <div className="mb-48"></div>
-      <div className="mx-auto mt-40 mb-24 w-3/4 text-center md:w-2/4">
+      <div className="mb-36"></div>
+      <div className="mx-auto mt-40 mb-8 w-3/4 text-center md:w-2/4">
         <h1 className="font-title text-ef-blue block text-4xl font-extrabold uppercase tracking-tight text-gray-900 sm:text-5xl md:text-6xl xl:inline">
           Félicitations
           <br />
           <span className="font-medium">Votre rendez-vous est confirmé</span>
         </h1>
-        <p className="text-ef-blue mx-auto mt-3 mb-20 max-w-md text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
+        <p className="text-ef-blue mx-auto mt-3 mb-12 max-w-md text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
           En réservant cet appel, vous avez pris une excellente décision : celle
           de faire le premier pas vers votre réussite. Alors notez-le dès
           maintenant dans votre agenda car votre coach personnel se rendra
@@ -94,7 +99,7 @@ const ThanksClosing = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white px-6 pt-12 sm:px-0 sm:pt-16">
+      <div className="bg-white px-6 pt-8 sm:px-0 sm:pt-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="font-title text-ef-blue text-4xl font-extrabold uppercase sm:text-4xl">
