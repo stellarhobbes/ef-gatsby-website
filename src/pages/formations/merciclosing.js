@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Navbar from "../../components/navbar";
 import CentralFooter from "../../components/footer-central";

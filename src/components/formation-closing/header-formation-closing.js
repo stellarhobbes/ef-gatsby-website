@@ -9,7 +9,7 @@ import HeadShake from "react-reveal/HeadShake";
 const HeaderFormationClosing = () => {
   return (
     <div className="relative overflow-hidden px-6 sm:px-O">
-      <main className="|| mx-auto mt-40 max-w-7xl px-0 sm:mt-36 sm:pt-0 md:pt-16">
+      <main className="|| mx-auto mt-40 max-w-7xl px-0 sm:mt-20 sm:pt-0 md:pt-16">
         <div className="text-center">
           <Fade top>
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
@@ -18,7 +18,7 @@ const HeaderFormationClosing = () => {
               </span>
             </h1>
           </Fade>
-          <p className="text-ef-blue mx-auto mt-3 max-w-md text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
+          <p className="text-ef-blue mx-auto mt-3 mb-10 max-w-md text-base sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
             Créez le job de vos rêves en devenant closer et vivez
             confortablement d’une activité qui fait sens pour vous.
           </p>

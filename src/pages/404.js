@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import { Helmet } from "react-helmet";
 
 // markup
 const NotFoundPage = () => {
@@ -8,9 +9,8 @@ const NotFoundPage = () => {
       <Helmet>
         <html lang="fr" amp />
         <meta charSet="utf-8" />
-        <link rel="canonical" href="https://www.lentrepreneuriatfrancais.fr/404" />
         <title>Page not found</title>
-        </Helmet>
+      </Helmet>
       <title>Not found</title>
       <h1>Page not found</h1>
       <p>
