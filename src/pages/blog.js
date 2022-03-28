@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet";
 
 import Navbar from "../components/navbar";
 import PreFooter from "../components/prefooter";
@@ -35,10 +35,53 @@ const BlogPage = () => {
   }
   return (
     <body className="pt-28">
-         <Helmet>
-          <meta charSet="utf-8" />
-          <title>Blog | L'Entrepreneuriat Français</title>
-        </Helmet>
+      <Helmet>
+        <html lang="fr" amp />
+        <meta charSet="utf-8" />
+        <link
+          rel="canonical"
+          href="https://www.lentrepreneuriatfrancais.fr/blog"
+        />
+        <title>Blog | L'Entrepreneuriat Français</title>
+        <meta name="title" content="Blog | L'Entrepreneuriat Français" />
+        <meta
+          name="description"
+          content="Des ressources gratuites pour vous aider à faire avancer votre projet. L’entrepreneuriat français vous accompagne pas à pas pour vous lancer."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.lentrepreneuriatfrancais.fr/blog"
+        />
+        <meta property="og:title" content="Blog | L'Entrepreneuriat Français" />
+        <meta
+          property="og:description"
+          content="Des ressources gratuites pour vous aider à faire avancer votre projet. L’entrepreneuriat français vous accompagne pas à pas pour vous lancer."
+        />
+        <meta
+          property="og:image"
+          content="https://images.ctfassets.net/e705sr8nkyoz/6aDSO7RC19760OR4yXpwP9/d256662ebfcd4e3e02d7ded33af68d53/ef-article-closing.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://www.lentrepreneuriatfrancais.fr/blog"
+        />
+        <meta
+          property="twitter:title"
+          content="Blog | L'Entrepreneuriat Français"
+        />
+        <meta
+          property="twitter:description"
+          content="Des ressources gratuites pour vous aider à faire avancer votre projet. L’entrepreneuriat français vous accompagne pas à pas pour vous lancer."
+        />
+        <meta
+          property="twitter:image"
+          content="https://images.ctfassets.net/e705sr8nkyoz/6aDSO7RC19760OR4yXpwP9/d256662ebfcd4e3e02d7ded33af68d53/ef-article-closing.png"
+        />
+      </Helmet>
       <Navbar />
       <div className="mx-auto mt-40 text-center">
         <Fade top>

@@ -26,8 +26,54 @@ const IndexPage = () => {
   return (
     <main className="pt-28">
       <Helmet>
+        <html lang="fr" amp />
         <meta charSet="utf-8" />
+        <link
+          rel="canonical"
+          href="https://www.lentrepreneuriatfrancais.fr"
+        />
         <title>L'Entrepreneuriat Français</title>
+        <meta name="title" content="L'Entrepreneuriat Français" />
+        <meta
+          name="description"
+          content="Grâce aux formations de l’Entrepreneuriat Français, développez vos compétences pour lancer une activité rentable et qui fait sens pour vous."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.lentrepreneuriatfrancais.fr"
+        />
+        <meta
+          property="og:title"
+          content="L'Entrepreneuriat Français"
+        />
+        <meta
+          property="og:description"
+          content="Grâce aux formations de l’Entrepreneuriat Français, développez vos compétences pour lancer une activité rentable et qui fait sens pour vous."
+        />
+        <meta
+          property="og:image"
+          content="https://images.ctfassets.net/e705sr8nkyoz/6aDSO7RC19760OR4yXpwP9/d256662ebfcd4e3e02d7ded33af68d53/ef-article-closing.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://www.lentrepreneuriatfrancais.fr"
+        />
+        <meta
+          property="twitter:title"
+          content="L'Entrepreneuriat Français"
+        />
+        <meta
+          property="twitter:description"
+          content="Grâce aux formations de l’Entrepreneuriat Français, développez vos compétences pour lancer une activité rentable et qui fait sens pour vous."
+        />
+        <meta
+          property="twitter:image"
+          content="https://images.ctfassets.net/e705sr8nkyoz/6aDSO7RC19760OR4yXpwP9/d256662ebfcd4e3e02d7ded33af68d53/ef-article-closing.png"
+        />
       </Helmet>
       <Navbar />
       <Header

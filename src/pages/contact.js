@@ -18,13 +18,61 @@ const ContactPage = () => {
   return (
     <main>
       <Helmet>
+        <html lang="fr" amp />
         <meta charSet="utf-8" />
+        <link
+          rel="canonical"
+          href="https://www.lentrepreneuriatfrancais.fr/contact"
+        />
         <title>Contact | L'Entrepreneuriat Français</title>
+        <meta name="title" content="Blog | L'Entrepreneuriat Français" />
+        <meta
+          name="description"
+          content="Vous souhaitez créer et développer votre entreprise ? L’entrepreneuriat français vous accompagne pas à pas pour vous lancer. Contactez-nous !"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.lentrepreneuriatfrancais.fr/contact"
+        />
+        <meta
+          property="og:title"
+          content="Contact | L'Entrepreneuriat Français"
+        />
+        <meta
+          property="og:description"
+          content="Vous souhaitez créer et développer votre entreprise ? L’entrepreneuriat français vous accompagne pas à pas pour vous lancer. Contactez-nous !"
+        />
+        <meta
+          property="og:image"
+          content="https://images.ctfassets.net/e705sr8nkyoz/6aDSO7RC19760OR4yXpwP9/d256662ebfcd4e3e02d7ded33af68d53/ef-article-closing.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://www.lentrepreneuriatfrancais.fr/contact"
+        />
+        <meta
+          property="twitter:title"
+          content="Contact | L'Entrepreneuriat Français"
+        />
+        <meta
+          property="twitter:description"
+          content="Vous souhaitez créer et développer votre entreprise ? L’entrepreneuriat français vous accompagne pas à pas pour vous lancer. Contactez-nous !"
+        />
+        <meta
+          property="twitter:image"
+          content="https://images.ctfassets.net/e705sr8nkyoz/6aDSO7RC19760OR4yXpwP9/d256662ebfcd4e3e02d7ded33af68d53/ef-article-closing.png"
+        />
       </Helmet>
       <Navbar />
       <div className="mb-48"></div>
-      <div className="w-2/4 mx-auto text-center mt-40 mb-24">
-        <h1 className="text-4xl tracking-tight block font-title uppercase text-ef-blue xl:inline font-extrabold text-gray-900 sm:text-5xl md:text-6xl">Formation Créer et développer votre entreprise de closing</h1>
+      <div className="mx-auto mt-40 mb-24 w-2/4 text-center">
+        <h1 className="font-title text-ef-blue block text-4xl font-extrabold uppercase tracking-tight text-gray-900 sm:text-5xl md:text-6xl xl:inline">
+          Formation Créer et développer votre entreprise de closing
+        </h1>
       </div>
       <HubspotContactForm />
       <div id="double-logo" className="flex justify-center">

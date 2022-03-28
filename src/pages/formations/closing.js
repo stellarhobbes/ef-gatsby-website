@@ -26,10 +26,13 @@ const ClosingPage = () => {
   return (
     <body>
       <Helmet>
-        <title>Qu'est-ce que le closing ? L'Entrepreneuriat Français</title>
+        <html lang="fr" amp />
+        <meta charSet="utf-8" />
+        <link rel="canonical" href="https://www.lentrepreneuriatfrancais.fr/formations/closing" />
+        <title>Formation closing : votre ticket pour la liberté</title>
         <meta
           name="title"
-          content="Qu'est-ce que le closing ? L'Entrepreneuriat Français"
+          content="Formation closing : votre ticket pour la liberté"
         />
         <meta
           name="description"
@@ -39,11 +42,11 @@ const ClosingPage = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.lentrepreneuriatfrancais.fr/blog/le-closing"
+          content="https://www.lentrepreneuriatfrancais.fr/formations/closing"
         />
         <meta
           property="og:title"
-          content="Qu'est-ce que le closing ? L'Entrepreneuriat Français"
+          content="Formation closing : votre ticket pour la liberté"
         />
         <meta
           property="og:description"
@@ -57,11 +60,11 @@ const ClosingPage = () => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.lentrepreneuriatfrancais.fr/blog/le-closing"
+          content="https://www.lentrepreneuriatfrancais.fr/formations/closing"
         />
         <meta
           property="twitter:title"
-          content="Qu'est-ce que le closing ? L'Entrepreneuriat Français"
+          content="Formation closing : votre ticket pour la liberté"
         />
         <meta
           property="twitter:description"

@@ -41,6 +41,15 @@ module.exports = {
         icon: `src/images/favicon.png`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.lentrepreneuriatfrancais.fr',
+        sitemap: 'https://www.lentrepreneuriatfrancais.fr/sitemap/sitemap-index.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-postcss",
     "gatsby-plugin-react-helmet",
     "@contentful/rich-text-react-renderer",

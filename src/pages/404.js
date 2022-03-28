@@ -5,6 +5,12 @@ import { Link } from "gatsby";
 const NotFoundPage = () => {
   return (
     <main>
+      <Helmet>
+        <html lang="fr" amp />
+        <meta charSet="utf-8" />
+        <link rel="canonical" href="https://www.lentrepreneuriatfrancais.fr/404" />
+        <title>Page not found</title>
+        </Helmet>
       <title>Not found</title>
       <h1>Page not found</h1>
       <p>

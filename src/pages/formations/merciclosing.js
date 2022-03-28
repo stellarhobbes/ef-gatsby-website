@@ -58,6 +58,12 @@ const ThanksClosing = () => {
   }
   return (
     <main>
+      <Helmet>
+        <html lang="fr" amp />
+        <meta charSet="utf-8" />
+        <link rel="canonical" href="https://www.lentrepreneuriatfrancais.fr/formations/merciclosing" />
+        <title>Votre rendez-vous est confirmé !</title>
+        </Helmet>
       <Navbar />
       <div className="mb-36"></div>
       <div className="mx-auto mt-40 mb-8 w-3/4 text-center md:w-2/4">

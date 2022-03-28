@@ -37,8 +37,15 @@ const Blog = (props) => {
   return (
     <body className="mt-28">
       <Helmet>
+        <html lang="fr" amp />
+        <meta charSet="utf-8" />
+        <link
+          rel="canonical"
+          href={props.data.contentfulBlogPost.metaWebsiteUrl}
+        />
         <title>
-          {props.data.contentfulBlogPost.title + " - L'entrepreneuriat Français"}
+          {props.data.contentfulBlogPost.title +
+            " - L'entrepreneuriat Français"}
         </title>
         <meta name="title" content={props.data.contentfulBlogPost.title}></meta>
         <meta
@@ -47,16 +54,40 @@ const Blog = (props) => {
         />
         {/* Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={props.data.contentfulBlogPost.metaWebsiteUrl} />
-        <meta property="og:title" content={props.data.contentfulBlogPost.title} />
-        <meta property="og:description" content={props.data.contentfulBlogPost.metaDescription} />
-        <meta property="og:image" content={props.data.contentfulBlogPost.metaImageUrl} />
+        <meta
+          property="og:url"
+          content={props.data.contentfulBlogPost.metaWebsiteUrl}
+        />
+        <meta
+          property="og:title"
+          content={props.data.contentfulBlogPost.title}
+        />
+        <meta
+          property="og:description"
+          content={props.data.contentfulBlogPost.metaDescription}
+        />
+        <meta
+          property="og:image"
+          content={props.data.contentfulBlogPost.metaImageUrl}
+        />
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={props.data.contentfulBlogPost.metaWebsiteUrl} />
-        <meta property="twitter:title" content={props.data.contentfulBlogPost.title} />
-        <meta property="twitter:description" content={props.data.contentfulBlogPost.metaDescription} />
-        <meta property="twitter:image" content={props.data.contentfulBlogPost.metaImageUrl} />
+        <meta
+          property="twitter:url"
+          content={props.data.contentfulBlogPost.metaWebsiteUrl}
+        />
+        <meta
+          property="twitter:title"
+          content={props.data.contentfulBlogPost.title}
+        />
+        <meta
+          property="twitter:description"
+          content={props.data.contentfulBlogPost.metaDescription}
+        />
+        <meta
+          property="twitter:image"
+          content={props.data.contentfulBlogPost.metaImageUrl}
+        />
       </Helmet>
       <Navbar />
       <div className="relative overflow-hidden bg-white py-16">

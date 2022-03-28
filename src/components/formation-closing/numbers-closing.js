@@ -65,7 +65,7 @@ const NumbersClosing = () => {
           <img
             className="flex align-item-center w-4/4 hidden || sm:block"
             src={PeopleMosaic}
-            alt="illustration montagnes entrepreuneuriat français"
+            alt="mosaique d'hommes et de femmes'"
           />
         </div>
       <div className="mb-10 flex justify-center">
