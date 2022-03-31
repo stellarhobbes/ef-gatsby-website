@@ -49,6 +49,12 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        www: true,
+      },
+    },
     "gatsby-plugin-sitemap",
     "gatsby-plugin-postcss",
     "gatsby-plugin-react-helmet",
