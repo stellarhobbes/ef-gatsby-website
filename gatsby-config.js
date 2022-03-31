@@ -52,8 +52,23 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-htaccess',
       options: {
+        RewriteBase: true,
         https: true,
         www: true,
+        SymLinksIfOwnerMatch: true,
+        host: 'www.lentrepreneuriatfrancais.fr',
+        ErrorDocument: `
+          ErrorDocument 401 /error_pages/401.html
+          ErrorDocument 404 /error_pages/404.html
+          ErrorDocument 500 /error_pages/500.html
+        `,
+        redirect: [
+          'RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]',
+          {
+            from: 'lentrepreneuriatfrancais.fr',
+            to: 'www.lentrepreneuriatfrancais.fr',
+          },
+        ],
       },
     },
     "gatsby-plugin-sitemap",
