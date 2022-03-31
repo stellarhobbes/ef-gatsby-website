@@ -52,6 +52,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-htaccess',
       options: {
+        https: true,
         www: true,
       },
     },
