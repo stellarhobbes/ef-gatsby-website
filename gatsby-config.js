@@ -6,7 +6,7 @@ const path = require(`path`);
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.lentrepreneuriatfrancais.fr",
+    siteUrl: "https://lentrepreneuriatfrancais.fr",
     title: "L'Entrepreneuriat Français",
   },
   plugins: [
