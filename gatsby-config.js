@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.lentrepreneuriatfrancais.fr',
-        sitemap: 'https://www.lentrepreneuriatfrancais.fr/sitemap/sitemap-index.xml',
+        host: 'https://lentrepreneuriatfrancais.fr',
+        sitemap: 'https://lentrepreneuriatfrancais.fr/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
