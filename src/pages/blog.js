@@ -40,7 +40,7 @@ const BlogPage = () => {
         <meta charSet="utf-8" />
         <link
           rel="canonical"
-          href="https://www.lentrepreneuriatfrancais.fr/blog"
+          href="https://lentrepreneuriatfrancais.fr/blog"
         />
         <title>Blog | L'Entrepreneuriat Français</title>
         <meta name="title" content="Blog | L'Entrepreneuriat Français" />
@@ -52,7 +52,7 @@ const BlogPage = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.lentrepreneuriatfrancais.fr/blog"
+          content="https://lentrepreneuriatfrancais.fr/blog"
         />
         <meta property="og:title" content="Blog | L'Entrepreneuriat Français" />
         <meta
@@ -67,7 +67,7 @@ const BlogPage = () => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.lentrepreneuriatfrancais.fr/blog"
+          content="https://lentrepreneuriatfrancais.fr/blog"
         />
         <meta
           property="twitter:title"

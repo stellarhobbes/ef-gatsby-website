@@ -28,7 +28,7 @@ const ClosingPage = () => {
       <Helmet>
         <html lang="fr" amp />
         <meta charSet="utf-8" />
-        <link rel="canonical" href="https://www.lentrepreneuriatfrancais.fr/formations/closing" />
+        <link rel="canonical" href="https://lentrepreneuriatfrancais.fr/formations/closing" />
         <title>Formation closing : votre ticket pour la liberté</title>
         <meta
           name="title"
@@ -42,7 +42,7 @@ const ClosingPage = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.lentrepreneuriatfrancais.fr/formations/closing"
+          content="https://lentrepreneuriatfrancais.fr/formations/closing"
         />
         <meta
           property="og:title"
@@ -60,7 +60,7 @@ const ClosingPage = () => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.lentrepreneuriatfrancais.fr/formations/closing"
+          content="https://lentrepreneuriatfrancais.fr/formations/closing"
         />
         <meta
           property="twitter:title"

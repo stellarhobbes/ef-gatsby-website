@@ -30,7 +30,7 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <link
           rel="canonical"
-          href="https://www.lentrepreneuriatfrancais.fr"
+          href="https://lentrepreneuriatfrancais.fr"
         />
         <title>L'Entrepreneuriat Français</title>
         <meta name="title" content="L'Entrepreneuriat Français" />
@@ -42,7 +42,7 @@ const IndexPage = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.lentrepreneuriatfrancais.fr"
+          content="https://lentrepreneuriatfrancais.fr"
         />
         <meta
           property="og:title"
@@ -60,7 +60,7 @@ const IndexPage = () => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.lentrepreneuriatfrancais.fr"
+          content="https://lentrepreneuriatfrancais.fr"
         />
         <meta
           property="twitter:title"

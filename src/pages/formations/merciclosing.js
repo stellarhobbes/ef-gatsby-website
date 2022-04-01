@@ -62,7 +62,7 @@ const ThanksClosing = () => {
       <Helmet>
         <html lang="fr" amp />
         <meta charSet="utf-8" />
-        <link rel="canonical" href="https://www.lentrepreneuriatfrancais.fr/formations/merciclosing" />
+        <link rel="canonical" href="https://lentrepreneuriatfrancais.fr/formations/merciclosing" />
         <title>Votre rendez-vous est confirmé !</title>
         </Helmet>
       <Navbar />

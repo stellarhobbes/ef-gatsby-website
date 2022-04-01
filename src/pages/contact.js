@@ -22,7 +22,7 @@ const ContactPage = () => {
         <meta charSet="utf-8" />
         <link
           rel="canonical"
-          href="https://www.lentrepreneuriatfrancais.fr/contact"
+          href="https://lentrepreneuriatfrancais.fr/contact"
         />
         <title>Contact | L'Entrepreneuriat Français</title>
         <meta name="title" content="Blog | L'Entrepreneuriat Français" />
@@ -34,7 +34,7 @@ const ContactPage = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.lentrepreneuriatfrancais.fr/contact"
+          content="https://lentrepreneuriatfrancais.fr/contact"
         />
         <meta
           property="og:title"
@@ -52,7 +52,7 @@ const ContactPage = () => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://www.lentrepreneuriatfrancais.fr/contact"
+          content="https://lentrepreneuriatfrancais.fr/contact"
         />
         <meta
           property="twitter:title"
