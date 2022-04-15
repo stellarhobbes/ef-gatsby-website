@@ -87,6 +87,14 @@ const Footer = () => {
         <div className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-center text-base text-gray-400">
             &copy; 2022 L'Entrepreneuriat Français. Tous droits réservés.
+            <br />
+            <Link to="/conditions-generales-utilisation">
+              Conditions générales d'utilisation
+            </Link>{" "}
+            -{" "}
+            <Link to="/conditions-generales-services">
+              Conditions générales de prestation de services
+            </Link>
           </p>
         </div>
       </div>
