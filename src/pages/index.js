@@ -6,12 +6,12 @@ import Comparaison from "../components/comparaison";
 import Navbar from "../components/navbar";
 import Header from "../components/header";
 import CallToAction from "../components/calltoaction";
-import Testimonial from "../components/testimonial";
 import SixSteps from "../components/sixsteps";
-import TestimonialCta from "../components/testimonial-cta";
 import CallToActionSimple from "../components/calltoaction-simple";
 import Video from "../components/video";
 import PreFooter from "../components/prefooter";
+
+import TestimonialVideoClosing from "../components/formation-closing/testimonial-video-closing";
 
 // list of assets, images ...
 import DancingEf from "../images/ef-dancing.png";
@@ -95,9 +95,8 @@ const IndexPage = () => {
         link=""
         buttonTitle="Quel entrepreneur se cache en vous ?"
       />
-      <Testimonial />
       <SixSteps />
-      <TestimonialCta />
+      <TestimonialVideoClosing />
       <CallToActionSimple
         title="Retrouvez l’excellence à la française dans des formations prise en charge à 100% par votre CPF"
         link=""
